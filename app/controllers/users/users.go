@@ -3,16 +3,21 @@ package users
 import (
 	"api/app/config"
 	"api/app/repository"
+	"api/app/services"
 
 	"github.com/gin-gonic/gin"
 )
 
 func Index(c *gin.Context) {
 	db := config.DatabaseConnection()
-	userRepository := repository.NewUserRepository(db)
-	users := userRepository.FindAll()
+	userRepo := repository.NewUserRepository(db)
+
+	getAllUsersService := services.GetAllUsersService{
+		UserRepository: &userRepo,
+	}
+
 	c.JSON(200, gin.H{
-		"users": users,
+		"users": getAllUsersService.GetAllUsers(),
 	})
 }
 
