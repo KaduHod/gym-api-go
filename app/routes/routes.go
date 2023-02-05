@@ -20,6 +20,7 @@ func alunosGroups(router *gin.Engine) {
 	group := router.Group("/alunos")
 	{
 		group.GET("/", alunos.All)
+		group.POST("/", alunos.Create)
 	}
 }
 

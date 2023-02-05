@@ -1,10 +1,13 @@
 package repository
 
 import (
-	"api/app/helpers/errors"
+	apiErrors "api/app/helpers/errors"
+	databaseErrors "api/app/helpers/errors/database"
 	"api/app/models"
+	"errors"
 	"net/url"
 
+	"github.com/go-sql-driver/mysql"
 	"gorm.io/gorm"
 )
 
@@ -20,12 +23,28 @@ func (r *AlunosRepository) FindAll(params url.Values) *[]models.User {
 	var alunos []models.User
 	query := r.Db.Table("users").Select([]string{"users.*"}).Joins("JOIN users_permissions on users.id = users_permissions.user_id").Where("users_permissions.permission_id =?", 1)
 
-	for key, value := range params {
-		whereClause := "users." + key + " = ?"
-		query.Where(whereClause, value)
+	if params != nil {
+		for key, value := range params {
+			whereClause := "users." + key + " = ?"
+			query.Where(whereClause, value)
+		}
 	}
 
 	result := query.Find(&alunos)
-	errors.CheckPanic(result.Error)
+	apiErrors.CheckPanic(result.Error)
 	return &alunos
+}
+
+func (r *AlunosRepository) Create(alunoParams models.User) (models.User, error) {
+	result := r.Db.Create(&alunoParams)
+	if result.Error != nil {
+		err := result.Error.(*mysql.MySQLError)
+		hasError, message := databaseErrors.CheckError(err)
+
+		if hasError {
+			return alunoParams, errors.New(message)
+		}
+	}
+	apiErrors.Check(result.Error)
+	return alunoParams, nil
 }

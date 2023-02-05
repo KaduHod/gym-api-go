@@ -3,7 +3,7 @@ package users
 import (
 	"api/app/config"
 	"api/app/repository"
-	"api/app/services"
+	services "api/app/services/users"
 
 	"github.com/gin-gonic/gin"
 )
