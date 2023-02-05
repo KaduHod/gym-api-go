@@ -2,7 +2,6 @@ package repository
 
 import (
 	"api/app/models"
-	"fmt"
 
 	"gorm.io/gorm"
 )
@@ -29,5 +28,13 @@ func (r *PermissionRepository) CreateAluno(userId int) {
 		PermissionId: PermissionTypes["Aluno"],
 	}
 	r.Db.Create(&permissionAluno)
-	fmt.Println(permissionAluno)
+}
+
+func (r *PermissionRepository) CreatePersonal(userId int) error {
+	permission := models.UsersPermissions{
+		PermissionId: 2,
+		UserId:       userId,
+	}
+	r.Db.Create(&permission)
+	return nil
 }

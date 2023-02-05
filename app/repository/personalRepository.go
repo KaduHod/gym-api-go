@@ -2,10 +2,12 @@ package repository
 
 import (
 	apiErrors "api/app/helpers/errors"
+	databaseErrors "api/app/helpers/errors/database"
 	"api/app/models"
-	"fmt"
+	"errors"
 	"net/url"
 
+	"github.com/go-sql-driver/mysql"
 	"gorm.io/gorm"
 )
 
@@ -18,8 +20,18 @@ func NewPersonalRepository(Db *gorm.DB) PersonalRepository {
 		Db: Db,
 	}
 }
-func (r *PersonalRepository) Create() {
+func (r *PersonalRepository) Create(personal *models.Personal) error {
+	result := r.Db.Table("users").Create(&personal)
+	if result.Error != nil {
+		err := result.Error.(*mysql.MySQLError)
+		hasError, message := databaseErrors.CheckError(err)
 
+		if hasError {
+			return errors.New(message)
+		}
+	}
+	apiErrors.Check(result.Error)
+	return nil
 }
 
 func (r *PersonalRepository) FindAll(params url.Values) []models.Personal {
@@ -34,7 +46,6 @@ func (r *PersonalRepository) FindAll(params url.Values) []models.Personal {
 	}
 
 	result := query.Find(&personais)
-	fmt.Println(personais)
 	apiErrors.CheckPanic(result.Error)
 	return personais
 }
