@@ -1,13 +1,18 @@
 package routes
 
 import (
-	"gymapp/app/controllers/users"
+	"api/app/controllers/users"
+	"fmt"
 
 	"github.com/gin-gonic/gin"
 )
 
 func Init(router *gin.Engine) {
 	usersGroup(router)
+	router.GET("/", func(c *gin.Context) {
+
+		fmt.Println("oi")
+	})
 }
 
 func usersGroup(router *gin.Engine) {

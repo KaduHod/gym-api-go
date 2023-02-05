@@ -1,7 +1,7 @@
 package main
 
 import (
-	"gymapp/app/routes"
+	"api/app/routes"
 
 	"github.com/gin-gonic/gin"
 )

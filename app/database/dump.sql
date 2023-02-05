@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 8.0.19, for Win64 (x86_64)
 --
--- Host: localhost    Database: gymapp2
+-- Host: localhost    Database: api2
 -- ------------------------------------------------------
 -- Server version	8.0.32
 
@@ -18,8 +18,8 @@
 --
 -- Table structure for table `articulation_movement`
 --
-create database if not exists gymapp2;
-use gymapp2;
+create database if not exists gymapp;
+use gymapp;
 
 DROP TABLE IF EXISTS `articulation_movement`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
@@ -457,7 +457,7 @@ UNLOCK TABLES;
 
 insert into personal_aluno (aluno_id, personal_id) values (101,1),(102,1),(103,1),(104,1);
 --
--- Dumping routines for database 'gymapp2'
+-- Dumping routines for database 'api2'
 --
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 

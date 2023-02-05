@@ -1,18 +1,10 @@
-package users
+package controllers
 
-import (
-	"api/app/config"
-	"api/app/repository"
-
-	"github.com/gin-gonic/gin"
-)
+import "github.com/gin-gonic/gin"
 
 func Index(c *gin.Context) {
-	db := config.DatabaseConnection()
-	userRepository := repository.NewUserRepository(db)
-	users := userRepository.FindAll()
 	c.JSON(200, gin.H{
-		"users": users,
+		"message": "List users...",
 	})
 }
 

@@ -32,6 +32,8 @@ services:
     volumes:
       - ./app/database/:/docker-entrypoint-initdb.d
     restart: unless-stopped
+    networks:
+      - go-api
 
 networks: 
   go-api:
