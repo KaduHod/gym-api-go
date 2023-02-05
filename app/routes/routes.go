@@ -1,6 +1,7 @@
 package routes
 
 import (
+	"api/app/controllers/alunos"
 	"api/app/controllers/users"
 	"fmt"
 
@@ -9,10 +10,17 @@ import (
 
 func Init(router *gin.Engine) {
 	usersGroup(router)
+	alunosGroups(router)
 	router.GET("/", func(c *gin.Context) {
-
 		fmt.Println("oi")
 	})
+}
+
+func alunosGroups(router *gin.Engine) {
+	group := router.Group("/alunos")
+	{
+		group.GET("/", alunos.All)
+	}
 }
 
 func usersGroup(router *gin.Engine) {

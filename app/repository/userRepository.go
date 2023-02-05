@@ -3,7 +3,6 @@ package repository
 import (
 	"api/app/helpers/errors"
 	"api/app/models"
-	"fmt"
 
 	"gorm.io/gorm"
 )
@@ -23,7 +22,6 @@ func (r UserRepository) Save(user models.User) {
 
 func (r *UserRepository) FindAll() *[]models.User {
 	var users []models.User
-	fmt.Println(users, &users)
 	result := r.Db.Find(&users)
 	errors.CheckPanic(result.Error)
 	return &users

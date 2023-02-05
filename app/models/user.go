@@ -5,9 +5,9 @@ import (
 )
 
 type User struct {
-	Id        uint      `json:id        gorm:"-all"`
+	Id        uint      `json:id        gorm:"primary_key -all"`
 	Name      string    `json:name      gorm:"-all"`
-	Dickname  string    `json:nickname  gorm:"-all"`
+	Nickname  string    `json:nickname  gorm:"-all"`
 	Email     string    `json:email     gorm:"-all"`
 	Password  string    `json:password  gorm:"-all"`
 	cellphone string    `json:cellphone gorm:"-all"`
