@@ -16,19 +16,16 @@ func (s *CreatePersonalService) Main() error {
 	if err != nil {
 		return err
 	}
-	return nil
-}
-
-func (s *CreatePersonalService) createUser() error {
-	err := s.PersonalRepository.Create(s.Personal)
-	if err != nil {
-		return err
-	}
 	erro := s.createPermission()
 	if erro != nil {
 		return erro
 	}
 	return nil
+}
+
+func (s *CreatePersonalService) createUser() error {
+	err := s.PersonalRepository.Create(s.Personal)
+	return err
 }
 
 func (s *CreatePersonalService) createPermission() error {
