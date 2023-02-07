@@ -54,8 +54,9 @@ func Create(c *gin.Context) {
 }
 
 func Update(c *gin.Context) {
-	id := c.Param("id")
-	fmt.Println("aqui", id)
+	var alunoUpdateParams models.Aluno
+	requests.GetBodyJson(c.Request.Body, &alunoUpdateParams)
+	fmt.Println("aqui", alunoUpdateParams)
 	c.JSON(200, gin.H{
 		"message": "Updating user...",
 	})

@@ -8,7 +8,7 @@ type Aluno struct {
 	Nickname  string    `json:nickname  gorm:"-all"`
 	Email     string    `json:email     gorm:"-all"`
 	Password  string    `json:password  gorm:"-all"`
-	cellphone string    `json:cellphone gorm:"-all"`
-	createdAt time.Time `json:createdAt gorm:"-all"`
-	updatedAt time.Time `json:updatedAt gorm:"-all"`
+	Cellphone string    `json:cellphone gorm:"-all"`
+	CreatedAt time.Time `json:createdAt gorm:"-all"`
+	UpdatedAt time.Time `json:updatedAt gorm:"-all"`
 }

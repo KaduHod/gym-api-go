@@ -23,7 +23,7 @@ func alunosGroups(router *gin.Engine) {
 	{
 		group.GET("/", alunos.All)
 		group.POST("/", alunos.Create)
-		group.PUT("/:id", alunos.Update)
+		group.PUT("/", alunos.Update)
 	}
 }
 
