@@ -37,9 +37,9 @@ func Create(c *gin.Context) {
 	createAlunoService := alunoServices.CreateAlunoService{
 		AlunoRepository:      &alunoRepository,
 		PermissionRepository: &permissionRepository,
-		AlunoParams:          aluno,
+		Aluno:                &aluno,
 	}
-	aluno, erro := createAlunoService.Main()
+	erro := createAlunoService.Main()
 
 	if erro != nil {
 		c.JSON(400, gin.H{

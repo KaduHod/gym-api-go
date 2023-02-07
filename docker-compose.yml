@@ -1,18 +1,18 @@
 version: '3.8'
 services: 
-  go-api: 
-    image: golang 
-    hostname: go-api
-    ports:
-      - ${API_PORT}:${API_PORT}
-    container_name: go-api
-    working_dir: /usr/src/app
-    build: .
-    volumes: 
-      - ./:/usr/src/app
-    networks:
-      - go-api
-    tty: true 
+  # go-api: 
+    # image: golang 
+    # hostname: go-api
+    # ports:
+      # - ${API_PORT}:${API_PORT}
+    # container_name: go-api
+    # working_dir: /usr/src/app
+    # build: .
+    # volumes: 
+      # - ./:/usr/src/app
+    # networks:
+      # - go-api
+    # tty: true 
 
   gym-db:
     env_file:

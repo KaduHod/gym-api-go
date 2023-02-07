@@ -35,16 +35,16 @@ func (r *AlunosRepository) FindAll(params url.Values) *[]models.User {
 	return &alunos
 }
 
-func (r *AlunosRepository) Create(alunoParams models.User) (models.User, error) {
-	result := r.Db.Create(&alunoParams)
+func (r *AlunosRepository) Create(aluno *models.User) error {
+	result := r.Db.Create(&aluno)
 	if result.Error != nil {
 		err := result.Error.(*mysql.MySQLError)
 		hasError, message := databaseErrors.CheckError(err)
 
 		if hasError {
-			return alunoParams, errors.New(message)
+			return errors.New(message)
 		}
 	}
 	apiErrors.Check(result.Error)
-	return alunoParams, nil
+	return nil
 }

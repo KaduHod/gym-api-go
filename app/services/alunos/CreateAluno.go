@@ -8,14 +8,14 @@ import (
 type CreateAlunoService struct {
 	AlunoRepository      *repository.AlunosRepository
 	PermissionRepository *repository.PermissionRepository
-	AlunoParams          models.User
+	Aluno                *models.User
 }
 
-func (s *CreateAlunoService) Main() (models.User, error) {
-	alunoCreated, err := s.AlunoRepository.Create(s.AlunoParams)
+func (s *CreateAlunoService) Main() error {
+	err := s.AlunoRepository.Create(s.Aluno)
 	if err != nil {
-		return alunoCreated, err
+		return err
 	}
-	s.PermissionRepository.CreateAluno(alunoCreated.Id)
-	return alunoCreated, nil
+	s.PermissionRepository.CreateAluno(s.Aluno.Id)
+	return nil
 }

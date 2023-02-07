@@ -19,7 +19,7 @@ func Init(router *gin.Engine) {
 }
 
 func alunosGroups(router *gin.Engine) {
-	group := router.Group("/alunos")
+	group := router.Group("/aluno")
 	{
 		group.GET("/", alunos.All)
 		group.POST("/", alunos.Create)
@@ -35,7 +35,7 @@ func personalGroup(router *gin.Engine) {
 }
 
 func usersGroup(router *gin.Engine) {
-	group := router.Group("/users")
+	group := router.Group("/user")
 	{
 		group.GET("/", users.Index)
 		group.POST("/", users.Create)
