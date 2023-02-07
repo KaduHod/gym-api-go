@@ -2,12 +2,11 @@ package alunos
 
 import (
 	"api/app/config"
-	"api/app/helpers/errors"
+	"api/app/helpers/requests"
 	"api/app/models"
 	"api/app/repository"
 	alunoServices "api/app/services/alunos"
-	"encoding/json"
-	"io/ioutil"
+	"fmt"
 
 	"github.com/gin-gonic/gin"
 )
@@ -27,13 +26,13 @@ func All(c *gin.Context) {
 }
 
 func Create(c *gin.Context) {
-	jsonBody, err := ioutil.ReadAll(c.Request.Body)
-	errors.Check(err)
 	aluno := models.User{}
-	json.Unmarshal([]byte(jsonBody), &aluno)
+	requests.GetBodyJson(c.Request.Body, &aluno)
+
 	db := config.DatabaseConnection()
 	alunoRepository := repository.NewAlunosRepository(db)
 	permissionRepository := repository.NewPermissionRepository(db)
+
 	createAlunoService := alunoServices.CreateAlunoService{
 		AlunoRepository:      &alunoRepository,
 		PermissionRepository: &permissionRepository,
@@ -55,6 +54,8 @@ func Create(c *gin.Context) {
 }
 
 func Update(c *gin.Context) {
+	id := c.Param("id")
+	fmt.Println("aqui", id)
 	c.JSON(200, gin.H{
 		"message": "Updating user...",
 	})

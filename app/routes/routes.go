@@ -13,7 +13,7 @@ func Init(router *gin.Engine) {
 	usersGroup(router)
 	alunosGroups(router)
 	personalGroup(router)
-	router.GET("/", func(c *gin.Context) {
+	router.GET("/teste", func(c *gin.Context) {
 		fmt.Println("oi")
 	})
 }
@@ -23,6 +23,7 @@ func alunosGroups(router *gin.Engine) {
 	{
 		group.GET("/", alunos.All)
 		group.POST("/", alunos.Create)
+		group.PUT("/:id", alunos.Update)
 	}
 }
 

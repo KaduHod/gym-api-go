@@ -32,7 +32,7 @@ func (r *PermissionRepository) CreateAluno(userId int) {
 
 func (r *PermissionRepository) CreatePersonal(userId int) error {
 	permission := models.UsersPermissions{
-		PermissionId: 2,
+		PermissionId: PermissionTypes["Personal"],
 		UserId:       userId,
 	}
 	r.Db.Create(&permission)
