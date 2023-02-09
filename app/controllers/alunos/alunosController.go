@@ -6,7 +6,6 @@ import (
 	"api/app/models"
 	"api/app/repository"
 	alunoServices "api/app/services/alunos"
-	"fmt"
 
 	"github.com/gin-gonic/gin"
 )
@@ -56,9 +55,19 @@ func Create(c *gin.Context) {
 func Update(c *gin.Context) {
 	var alunoUpdateParams models.Aluno
 	requests.GetBodyJson(c.Request.Body, &alunoUpdateParams)
-	fmt.Println("aqui", alunoUpdateParams)
+	db := config.DatabaseConnection()
+
+	alunoRepository := repository.NewAlunosRepository(db)
+
+	updateService := alunoServices.UpdateAlunoService{
+		AlunoRepository: &alunoRepository,
+		AlunoParams:     &alunoUpdateParams,
+	}
+
+	alunoUpdated := updateService.Main()
+
 	c.JSON(200, gin.H{
-		"message": "Updating user...",
+		"message": alunoUpdated,
 	})
 }
 

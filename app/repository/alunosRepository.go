@@ -35,6 +35,15 @@ func (r *AlunosRepository) FindAll(params url.Values) *[]models.User {
 	return &alunos
 }
 
+func (r *AlunosRepository) First(id int, aluno *models.Aluno) {
+	result := r.Db.Table("users").Select([]string{"users.*"}).Joins("JOIN users_permissions on users.id = users_permissions.user_id").Where("users_permissions.permission_id =?", PermissionTypes["Aluno"]).Where("users.id = ?", id).Find(&aluno)
+	apiErrors.Check(result.Error)
+}
+
+func (r *AlunosRepository) Update(alunoParams *models.Aluno) {
+	r.Db.Table("users").Omit("updated_at", "created_at").Model(alunoParams).Save(&alunoParams)
+}
+
 func (r *AlunosRepository) Create(aluno *models.User) error {
 	result := r.Db.Create(&aluno)
 	if result.Error != nil {
