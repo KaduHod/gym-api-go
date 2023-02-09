@@ -4,43 +4,25 @@ import (
 	"api/app/controllers/alunos"
 	"api/app/controllers/personal"
 	"api/app/controllers/users"
-	"fmt"
 
 	"github.com/gin-gonic/gin"
 )
 
 func Init(router *gin.Engine) {
-	usersGroup(router)
-	alunosGroups(router)
-	personalGroup(router)
-	router.GET("/teste", func(c *gin.Context) {
-		fmt.Println("oi")
-	})
-}
 
-func alunosGroups(router *gin.Engine) {
-	group := router.Group("/aluno")
-	{
-		group.GET("/", alunos.All)
-		group.POST("/", alunos.Create)
-		group.PUT("/", alunos.Update)
-	}
-}
+	groupAlunos := router.Group("/aluno")
+	groupAlunos.GET("/", alunos.All)
+	groupAlunos.POST("/", alunos.Create)
+	groupAlunos.PUT("/", alunos.Update)
 
-func personalGroup(router *gin.Engine) {
-	group := router.Group("/personal")
-	{
-		group.GET("/", personal.All)
-		group.POST("/", personal.Create)
-	}
-}
+	groupPersonal := router.Group("/personal")
+	groupPersonal.GET("/", personal.All)
+	groupPersonal.POST("/", personal.Create)
 
-func usersGroup(router *gin.Engine) {
-	group := router.Group("/user")
-	{
-		group.GET("/", users.Index)
-		group.POST("/", users.Create)
-		group.PUT("/", users.Update)
-		group.DELETE("/", users.Delete)
-	}
+	groupUsers := router.Group("/user")
+	groupUsers.GET("/", users.Index)
+	groupUsers.POST("/", users.Create)
+	groupUsers.PUT("/", users.Update)
+	groupUsers.DELETE("/", users.Delete)
+
 }
