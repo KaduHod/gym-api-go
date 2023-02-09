@@ -11,6 +11,6 @@ type User struct {
 	Email     string    `json:"email"     gorm:"-all"`
 	Password  string    `json:"password"  gorm:"-all"`
 	Cellphone string    `json:"cellphone" gorm:"-all"`
-	CreatedAt time.Time `gorm:"column:createdAt;autoCreateTime"`
-	UpdatedAt time.Time `gorm:"column:updatedAt;autoUpdateTime"`
+	CreatedAt time.Time `json:"createdAt" gorm:"column:createdAt;autoCreateTime"`
+	UpdatedAt time.Time `json:"updatedAt" gorm:"column:updatedAt;autoUpdateTime"`
 }
