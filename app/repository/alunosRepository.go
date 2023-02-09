@@ -41,7 +41,7 @@ func (r *AlunosRepository) First(id int, aluno *models.Aluno) {
 }
 
 func (r *AlunosRepository) Update(alunoParams *models.Aluno) {
-	r.Db.Table("users").Omit("updated_at", "created_at").Model(alunoParams).Save(&alunoParams)
+	r.Db.Table("users").Model(alunoParams).Save(&alunoParams)
 }
 
 func (r *AlunosRepository) Create(aluno *models.User) error {
