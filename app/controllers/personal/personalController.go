@@ -23,6 +23,34 @@ func All(c *gin.Context) {
 	})
 }
 
+func Update(c *gin.Context) {
+	personal := models.Personal{}
+	requests.GetBodyJson(c.Request.Body, &personal)
+
+	db := config.DatabaseConnection()
+	personalRepository := repository.NewPersonalRepository(db)
+
+	updateService := service.UpdatePersonalService{
+		PersonalRepository: &personalRepository,
+		Personal:           &personal,
+	}
+
+	error := updateService.Main()
+
+	if error.Error() == "Personal not found!" {
+		c.JSON(400, gin.H{
+			"error": error.Error(),
+		})
+		return
+	}
+
+	// c.JSON(201, gin.H{
+	// 	"message":  "updated",
+	// 	"personal": "personal",
+	// })
+
+}
+
 func Create(c *gin.Context) {
 	personal := models.Personal{}
 	requests.GetBodyJson(c.Request.Body, &personal)

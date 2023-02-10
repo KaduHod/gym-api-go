@@ -18,6 +18,7 @@ func Init(router *gin.Engine) {
 	groupPersonal := router.Group("/personal")
 	groupPersonal.GET("/", personal.All)
 	groupPersonal.POST("/", personal.Create)
+	groupPersonal.PUT("/", personal.Update)
 
 	groupUsers := router.Group("/user")
 	groupUsers.GET("/", users.Index)

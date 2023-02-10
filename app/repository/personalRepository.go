@@ -5,6 +5,7 @@ import (
 	databaseErrors "api/app/helpers/errors/database"
 	"api/app/models"
 	"errors"
+	"fmt"
 	"net/url"
 
 	"github.com/go-sql-driver/mysql"
@@ -32,6 +33,20 @@ func (r *PersonalRepository) Create(personal *models.Personal) error {
 	}
 	apiErrors.Check(result.Error)
 	return nil
+}
+
+func (r *PersonalRepository) First(id int, personal *models.Personal) error {
+	result := r.Db.Table("users").Select([]string{"users.*"}).Joins("JOIN users_permissions on users.id = users_permissions.user_id").Where("users_permissions.permission_id =?", PermissionTypes["Personal"]).Where("users.id = ?", id).Find(&personal)
+	apiErrors.Check(result.Error)
+	if personal.Id == 0 {
+		return errors.New("Personal not found!")
+	}
+	return nil
+}
+
+func (r *PersonalRepository) Update(personalParams *models.Personal) {
+	fmt.Println("aqui", personalParams)
+	r.Db.Table("users").Updates(personalParams)
 }
 
 func (r *PersonalRepository) FindAll(params url.Values) []models.Personal {
