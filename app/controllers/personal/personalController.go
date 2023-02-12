@@ -6,7 +6,6 @@ import (
 	"api/app/models"
 	"api/app/repository"
 	service "api/app/services/personal"
-	"fmt"
 
 	"github.com/gin-gonic/gin"
 )
@@ -35,7 +34,6 @@ func Update(c *gin.Context) {
 		PersonalRepository: &personalRepository,
 		Personal:           &personal,
 	}
-	fmt.Println(updateService)
 
 	error := updateService.Main()
 
@@ -48,7 +46,7 @@ func Update(c *gin.Context) {
 
 	c.JSON(201, gin.H{
 		"message":  "updated",
-		"personal": "personal",
+		"personal": personal,
 	})
 
 }

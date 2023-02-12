@@ -18,6 +18,22 @@ func (s *UpdatePersonalService) Main() error {
 		return error
 	}
 
+	if s.Personal.Cellphone == "" {
+		s.Personal.Cellphone = queryPersonal.Cellphone
+	}
+	if s.Personal.Email == "" {
+		s.Personal.Email = queryPersonal.Email
+	}
+	if s.Personal.Name == "" {
+		s.Personal.Name = queryPersonal.Name
+	}
+	if s.Personal.Nickname == "" {
+		s.Personal.Nickname = queryPersonal.Nickname
+	}
+	if s.Personal.Password == "" {
+		s.Personal.Password = queryPersonal.Password
+	}
+
 	s.PersonalRepository.Update(s.Personal)
 	return nil
 

@@ -53,21 +53,28 @@ func Create(c *gin.Context) {
 }
 
 func Update(c *gin.Context) {
-	var alunoUpdateParams models.Aluno
-	requests.GetBodyJson(c.Request.Body, &alunoUpdateParams)
+	var alunoParams models.Aluno
+	requests.GetBodyJson(c.Request.Body, &alunoParams)
 	db := config.DatabaseConnection()
 
 	alunoRepository := repository.NewAlunosRepository(db)
 
 	updateService := alunoServices.UpdateAlunoService{
 		AlunoRepository: &alunoRepository,
-		AlunoParams:     &alunoUpdateParams,
+		AlunoParams:     &alunoParams,
 	}
 
-	alunoUpdated := updateService.Main()
+	error := updateService.Main()
+
+	if error != nil && error.Error() == "Aluno not found!" {
+		c.JSON(400, gin.H{
+			"error": error.Error(),
+		})
+		return
+	}
 
 	c.JSON(200, gin.H{
-		"message": alunoUpdated,
+		"message": alunoParams,
 	})
 }
 

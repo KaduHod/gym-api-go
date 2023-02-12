@@ -10,16 +10,31 @@ type UpdateAlunoService struct {
 	AlunoParams     *models.Aluno
 }
 
-func (s *UpdateAlunoService) Main() models.Aluno {
+func (s *UpdateAlunoService) Main() error {
 	var queryAluno models.Aluno
-	s.AlunoRepository.First(s.AlunoParams.Id, &queryAluno)
+	error := s.AlunoRepository.First(s.AlunoParams.Id, &queryAluno)
 
-	queryAluno.Name = s.AlunoParams.Name
-	queryAluno.Nickname = s.AlunoParams.Nickname
-	queryAluno.Cellphone = s.AlunoParams.Cellphone
-	queryAluno.Email = s.AlunoParams.Email
-	queryAluno.Password = s.AlunoParams.Password
-	s.AlunoRepository.Update(&queryAluno)
+	if error != nil {
+		return error
+	}
 
-	return queryAluno
+	if s.AlunoParams.Cellphone == "" {
+		s.AlunoParams.Cellphone = queryAluno.Cellphone
+	}
+	if s.AlunoParams.Email == "" {
+		s.AlunoParams.Email = queryAluno.Email
+	}
+	if s.AlunoParams.Name == "" {
+		s.AlunoParams.Name = queryAluno.Name
+	}
+	if s.AlunoParams.Nickname == "" {
+		s.AlunoParams.Nickname = queryAluno.Nickname
+	}
+	if s.AlunoParams.Password == "" {
+		s.AlunoParams.Password = queryAluno.Password
+	}
+
+	s.AlunoRepository.Update(s.AlunoParams)
+
+	return nil
 }
