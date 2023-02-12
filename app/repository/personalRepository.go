@@ -5,7 +5,6 @@ import (
 	databaseErrors "api/app/helpers/errors/database"
 	"api/app/models"
 	"errors"
-	"fmt"
 	"net/url"
 
 	"github.com/go-sql-driver/mysql"
@@ -45,8 +44,7 @@ func (r *PersonalRepository) First(id int, personal *models.Personal) error {
 }
 
 func (r *PersonalRepository) Update(personalParams *models.Personal) {
-	fmt.Println("aqui", personalParams)
-	r.Db.Table("users").Updates(personalParams)
+	r.Db.Table("users").Model(&personalParams).Where("users.id = ?", personalParams.Id).Updates(personalParams)
 }
 
 func (r *PersonalRepository) FindAll(params url.Values) []models.Personal {

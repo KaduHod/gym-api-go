@@ -6,6 +6,7 @@ import (
 	"api/app/models"
 	"api/app/repository"
 	service "api/app/services/personal"
+	"fmt"
 
 	"github.com/gin-gonic/gin"
 )
@@ -34,20 +35,21 @@ func Update(c *gin.Context) {
 		PersonalRepository: &personalRepository,
 		Personal:           &personal,
 	}
+	fmt.Println(updateService)
 
 	error := updateService.Main()
 
-	if error.Error() == "Personal not found!" {
+	if error != nil && error.Error() == "Personal not found!" {
 		c.JSON(400, gin.H{
 			"error": error.Error(),
 		})
 		return
 	}
 
-	// c.JSON(201, gin.H{
-	// 	"message":  "updated",
-	// 	"personal": "personal",
-	// })
+	c.JSON(201, gin.H{
+		"message":  "updated",
+		"personal": "personal",
+	})
 
 }
 
