@@ -1,9 +1,8 @@
-package middlewares
+package validate
 
 import (
 	"api/app/helpers/requests"
 	"api/app/models"
-	"fmt"
 	"strings"
 
 	"github.com/gin-gonic/gin"
@@ -20,8 +19,6 @@ func CreateUserMiddleware(c *gin.Context) {
 		UserParams: &userParams,
 	}
 
-	fmt.Println(userParams)
-
 	hasError, keysErrors := checkUserParams.checkKeys()
 
 	if hasError {
@@ -29,41 +26,36 @@ func CreateUserMiddleware(c *gin.Context) {
 			"errors": keysErrors,
 		})
 
-		return
-	} else {
-		c.Next()
+		c.Abort()
 	}
 
-	fmt.Println(keysErrors)
-
+	c.Next()
 }
 
 func (c *CheckUserPostParams) checkKeys() (bool, *[]string) {
 	requiredParams := []string{}
 
 	if c.UserParams.Name == "" {
-		requiredParams = append(requiredParams, "name")
+		requiredParams = append(requiredParams, "name is required")
 	}
 
 	if c.UserParams.Password == "" {
-		requiredParams = append(requiredParams, "password")
+		requiredParams = append(requiredParams, "password is required")
 	}
 
 	if c.UserParams.Nickname == "" {
-		requiredParams = append(requiredParams, "nickname")
+		requiredParams = append(requiredParams, "nickname is required")
 	}
 
 	if c.UserParams.Email == "" {
-		requiredParams = append(requiredParams, "email")
+		requiredParams = append(requiredParams, "email is required")
 	}
 
 	if c.UserParams.Cellphone == "" {
-		requiredParams = append(requiredParams, "cellphone")
+		requiredParams = append(requiredParams, "cellphone is required")
 	}
 
-	length := len(requiredParams)
-
-	return length > 0, &requiredParams
+	return len(requiredParams) > 0, &requiredParams
 
 }
 
