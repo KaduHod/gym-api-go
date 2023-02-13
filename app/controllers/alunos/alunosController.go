@@ -6,6 +6,7 @@ import (
 	"api/app/models"
 	"api/app/repository"
 	alunoServices "api/app/services/alunos"
+	"fmt"
 
 	"github.com/gin-gonic/gin"
 )
@@ -25,30 +26,32 @@ func All(c *gin.Context) {
 }
 
 func Create(c *gin.Context) {
-	aluno := models.User{}
-	requests.GetBodyJson(c.Request.Body, &aluno)
+	// aluno := models.User{}
+	// requests.GetBodyJson(c.Request.Body, &aluno)
+	//
+	// db := config.DatabaseConnection()
+	// alunoRepository := repository.NewAlunosRepository(db)
+	// permissionRepository := repository.NewPermissionRepository(db)
+	//
+	// createAlunoService := alunoServices.CreateAlunoService{
+	// AlunoRepository:      &alunoRepository,
+	// PermissionRepository: &permissionRepository,
+	// Aluno:                &aluno,
+	// }
+	// erro := createAlunoService.Main()
+	//
+	// if erro != nil {
+	// c.JSON(400, gin.H{
+	// "error": erro.Error(),
+	// })
+	// return
+	// }
 
-	db := config.DatabaseConnection()
-	alunoRepository := repository.NewAlunosRepository(db)
-	permissionRepository := repository.NewPermissionRepository(db)
-
-	createAlunoService := alunoServices.CreateAlunoService{
-		AlunoRepository:      &alunoRepository,
-		PermissionRepository: &permissionRepository,
-		Aluno:                &aluno,
-	}
-	erro := createAlunoService.Main()
-
-	if erro != nil {
-		c.JSON(400, gin.H{
-			"error": erro.Error(),
-		})
-		return
-	}
+	fmt.Println(453)
 
 	c.JSON(201, gin.H{
 		"message": "Created",
-		"aluno":   aluno,
+		"aluno":   "aluno",
 	})
 }
 
@@ -74,7 +77,7 @@ func Update(c *gin.Context) {
 	}
 
 	c.JSON(200, gin.H{
-		"message": alunoParams,
+		"message": "alunoParams",
 	})
 }
 
