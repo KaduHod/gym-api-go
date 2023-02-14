@@ -23,7 +23,7 @@ func Init(router *gin.Engine) {
 
 	groupUsers := router.Group("/user")
 	groupUsers.GET("/", users.Index)
-	groupUsers.POST("/", users.Create)
+	groupUsers.POST("/", validate.CreateUserMiddleware, users.Create)
 	groupUsers.PUT("/", users.Update)
 	groupUsers.DELETE("/", users.Delete)
 

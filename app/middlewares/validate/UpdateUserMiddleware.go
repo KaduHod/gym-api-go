@@ -9,17 +9,17 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-type CheckUserPostParams struct {
+type CheckUserPutParams struct {
 	UserParams *models.User
 }
 
-func CreateUserMiddleware(c *gin.Context) {
+func UpdateUserMiddleware(c *gin.Context) {
 	var userParams models.User
 	var errorsArr []string
 
 	requests.GetBodyJson(c.Request.Body, &userParams)
 
-	checkUserParams := CheckUserPostParams{
+	checkUserParams := CheckUserPutParams{
 		UserParams: &userParams,
 	}
 
@@ -35,32 +35,16 @@ func CreateUserMiddleware(c *gin.Context) {
 	c.Next()
 }
 
-func (c *CheckUserPostParams) checkKeys(errorsArr []string) (bool, []string) {
-	if c.UserParams.Name == "" {
-		errorsArr = append(errorsArr, "name is required")
-	}
-
-	if c.UserParams.Password == "" {
-		errorsArr = append(errorsArr, "password is required")
-	}
-
-	if c.UserParams.Nickname == "" {
-		errorsArr = append(errorsArr, "nickname is required")
-	}
-
-	if c.UserParams.Email == "" {
-		errorsArr = append(errorsArr, "email is required")
-	}
-
-	if c.UserParams.Cellphone == "" {
-		errorsArr = append(errorsArr, "cellphone is required")
+func (c *CheckUserPutParams) checkKeys(errorsArr []string) (bool, []string) {
+	if c.UserParams.Id == 0 {
+		errorsArr = append(errorsArr, "Id is required")
 	}
 
 	return len(errorsArr) > 0, errorsArr
 
 }
 
-func (c *CheckUserPostParams) checkValues(errorsArr []string) (bool, []string) {
+func (c *CheckUserPutParams) checkValues(errorsArr []string) (bool, []string) {
 	if len(strings.Trim(c.UserParams.Name, " ")) < 5 {
 		errorsArr = append(errorsArr, "Name must have at least 5 caracters")
 	}
@@ -89,7 +73,7 @@ func (c *CheckUserPostParams) checkValues(errorsArr []string) (bool, []string) {
 
 }
 
-func (c *CheckUserPostParams) validEmail() bool {
+func (c *CheckUserPutParams) validEmail() bool {
 	_, err := mail.ParseAddress(c.UserParams.Email)
 	return err == nil
 }
