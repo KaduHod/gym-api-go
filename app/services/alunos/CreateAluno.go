@@ -3,6 +3,7 @@ package service
 import (
 	"api/app/models"
 	"api/app/repository"
+	"fmt"
 )
 
 type CreateAlunoService struct {
@@ -12,6 +13,7 @@ type CreateAlunoService struct {
 }
 
 func (s *CreateAlunoService) Main() error {
+	fmt.Println(s.Aluno)
 	err := s.AlunoRepository.Create(s.Aluno)
 	if err != nil {
 		return err

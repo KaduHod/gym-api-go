@@ -2,11 +2,9 @@ package alunos
 
 import (
 	"api/app/config"
-	"api/app/helpers/requests"
 	"api/app/models"
 	"api/app/repository"
 	alunoServices "api/app/services/alunos"
-	"fmt"
 
 	"github.com/gin-gonic/gin"
 )
@@ -26,9 +24,7 @@ func All(c *gin.Context) {
 }
 
 func Create(c *gin.Context) {
-	aluno := models.User{}
-	requests.GetBodyJson(c.Request.Body, &aluno)
-
+	aluno := c.MustGet("UserParams").(models.User)
 	db := config.DatabaseConnection()
 	alunoRepository := repository.NewAlunosRepository(db)
 	permissionRepository := repository.NewPermissionRepository(db)
@@ -47,31 +43,25 @@ func Create(c *gin.Context) {
 		return
 	}
 
-	fmt.Println(453)
-
 	c.JSON(201, gin.H{
-		"message": "Created",
-		"aluno":   aluno,
+		"aluno": aluno,
 	})
 }
 
 func Update(c *gin.Context) {
-	var alunoParams models.Aluno
-	requests.GetBodyJson(c.Request.Body, &alunoParams)
+	alunoParams := c.MustGet("UserParams").(models.Aluno)
 	db := config.DatabaseConnection()
-
 	alunoRepository := repository.NewAlunosRepository(db)
-
 	updateService := alunoServices.UpdateAlunoService{
 		AlunoRepository: &alunoRepository,
 		AlunoParams:     &alunoParams,
 	}
 
-	error := updateService.Main()
+	err := updateService.Main()
 
-	if error != nil && error.Error() == "Aluno not found!" {
+	if err != nil && err.Error() == "Aluno not found!" {
 		c.JSON(400, gin.H{
-			"error": error.Error(),
+			"error": err.Error(),
 		})
 		return
 	}

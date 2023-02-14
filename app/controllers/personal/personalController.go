@@ -2,10 +2,10 @@ package personal
 
 import (
 	"api/app/config"
-	"api/app/helpers/requests"
 	"api/app/models"
 	"api/app/repository"
 	service "api/app/services/personal"
+	"fmt"
 
 	"github.com/gin-gonic/gin"
 )
@@ -24,25 +24,23 @@ func All(c *gin.Context) {
 }
 
 func Update(c *gin.Context) {
-	personal := models.Personal{}
-	requests.GetBodyJson(c.Request.Body, &personal)
+	personal := c.MustGet("UserParams").(models.User)
+	fmt.Println(personal)
+	// db := config.DatabaseConnection()
+	// personalRepository := repository.NewPersonalRepository(db)
+	// updateService := service.UpdatePersonalService{
+	// PersonalRepository: &personalRepository,
+	// Personal:           &personal,
+	// }
 
-	db := config.DatabaseConnection()
-	personalRepository := repository.NewPersonalRepository(db)
-
-	updateService := service.UpdatePersonalService{
-		PersonalRepository: &personalRepository,
-		Personal:           &personal,
-	}
-
-	error := updateService.Main()
-
-	if error != nil && error.Error() == "Personal not found!" {
-		c.JSON(400, gin.H{
-			"error": error.Error(),
-		})
-		return
-	}
+	// erro := updateService.Main()
+	//
+	// if erro != nil && erro.Error() == "Personal not found!" {
+	// c.JSON(400, gin.H{
+	// "error": erro.Error(),
+	// })
+	// return
+	// }
 
 	c.JSON(201, gin.H{
 		"message":  "updated",
@@ -52,13 +50,10 @@ func Update(c *gin.Context) {
 }
 
 func Create(c *gin.Context) {
-	personal := models.Personal{}
-	requests.GetBodyJson(c.Request.Body, &personal)
-
+	personal := c.MustGet("UserParams").(models.Personal)
 	db := config.DatabaseConnection()
 	personalRepository := repository.NewPersonalRepository(db)
 	permissionRepository := repository.NewPermissionRepository(db)
-
 	createPersonalService := service.CreatePersonalService{
 		PersonalRepository:   &personalRepository,
 		PermissionRepository: &permissionRepository,

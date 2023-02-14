@@ -14,3 +14,7 @@ type User struct {
 	CreatedAt time.Time `json:"createdAt" gorm:"column:createdAt;autoCreateTime"`
 	UpdatedAt time.Time `json:"updatedAt" gorm:"column:updatedAt;autoUpdateTime"`
 }
+
+type UserTypes interface {
+	User | Aluno | Personal
+}
