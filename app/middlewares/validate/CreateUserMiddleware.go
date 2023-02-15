@@ -9,53 +9,43 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
-type CheckUserPostParams[T models.Aluno | models.Personal | models.User] struct {
-	UserParams T
-}
-
-func CreateUserMiddleware[T models.Aluno | models.Personal | models.User](c *gin.Context) {
-	var userParams models.User
+func CreateUserMiddleware[T models.UserType](c *gin.Context) {
+	var userParams T
 	var errorsArr []string
 	requests.GetBodyJson(c.Request.Body, &userParams)
 	hasErrorKeys, errorsArr := checkKeys(errorsArr, userParams)
 	hasErrorValues, errorsArr := checkValues(errorsArr, userParams)
+
+	c.Abort()
 	if hasErrorKeys || hasErrorValues {
 		c.JSON(400, gin.H{
 			"errors": errorsArr,
 		})
 		c.Abort()
 	}
-
-	// if c.Request.RequestURI == "/personal/" {
-	// userParams := userParams.(models.Personal)
-	// } else if c.Request.RequestURI == "/aluno/" {
-	// userParams := userParams.(models.Aluno)
-	// } else {
-	// userParams := userParams.(models.User)
-	// }
-
 	c.Set("UserParams", userParams)
 	c.Next()
 }
 
-func checkKeys(errorsArr []string, userParams models.User) (bool, []string) {
-	if userParams.Name == "" {
+func checkKeys[T models.UserType](errorsArr []string, userParams T) (bool, []string) {
+
+	if userParams.GetName() == "" {
 		errorsArr = append(errorsArr, "name is required")
 	}
 
-	if userParams.Password == "" {
+	if userParams.GetPassword() == "" {
 		errorsArr = append(errorsArr, "password is required")
 	}
 
-	if userParams.Nickname == "" {
+	if userParams.GetNickname() == "" {
 		errorsArr = append(errorsArr, "nickname is required")
 	}
 
-	if userParams.Email == "" {
+	if userParams.GetEmail() == "" {
 		errorsArr = append(errorsArr, "email is required")
 	}
 
-	if userParams.Cellphone == "" {
+	if userParams.GetCellphone() == "" {
 		errorsArr = append(errorsArr, "cellphone is required")
 	}
 
@@ -63,28 +53,28 @@ func checkKeys(errorsArr []string, userParams models.User) (bool, []string) {
 
 }
 
-func checkValues(errorsArr []string, userParams models.User) (bool, []string) {
-	if len(strings.Trim(userParams.Name, " ")) < 5 {
+func checkValues[T models.UserType](errorsArr []string, userParams T) (bool, []string) {
+	if len(strings.Trim(userParams.GetName(), " ")) < 5 {
 		errorsArr = append(errorsArr, "Name must have at least 5 caracters")
 	}
 
-	if len(strings.Trim(userParams.Password, " ")) < 8 {
+	if len(strings.Trim(userParams.GetPassword(), " ")) < 8 {
 		errorsArr = append(errorsArr, "Password must have at lest 8 caracters")
 	}
 
-	if len(strings.Trim(userParams.Nickname, " ")) < 5 {
+	if len(strings.Trim(userParams.GetNickname(), " ")) < 5 {
 		errorsArr = append(errorsArr, "Nickname must have at least 5 caracters")
 	}
 
-	if !validEmail(userParams.Email) {
+	if !validEmail(userParams.GetEmail()) {
 		errorsArr = append(errorsArr, "Email not valid")
 	}
 
-	if strings.Trim(userParams.Cellphone, " ") == "" {
+	if strings.Trim(userParams.GetCellphone(), " ") == "" {
 		errorsArr = append(errorsArr, "Cellphone invalid")
 	}
 
-	if userParams.Id > 0 {
+	if userParams.GetId() > 0 {
 		errorsArr = append(errorsArr, "To update operations you must use PUT method!")
 	}
 
