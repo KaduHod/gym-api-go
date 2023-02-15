@@ -2,6 +2,7 @@ package routes
 
 import (
 	"api/app/controllers/alunos"
+	"api/app/controllers/exercises"
 	"api/app/controllers/personal"
 	"api/app/controllers/users"
 	"api/app/middlewares/validate"
@@ -12,17 +13,20 @@ import (
 
 func Init(router *gin.Engine) {
 
-	groupAlunos := router.Group("/aluno")
+	groupAlunos := router.Group("/alunos")
 	groupAlunos.GET("/", alunos.All)
 	groupAlunos.POST("/", validate.CreateUserMiddleware[models.Aluno], alunos.Create)
-	groupAlunos.PUT("/", alunos.Update)
+	groupAlunos.PUT("/", validate.UpdateUserMiddleware[models.Aluno], alunos.Update)
 
-	groupPersonal := router.Group("/personal")
+	groupPersonal := router.Group("/personais")
 	groupPersonal.GET("/", personal.All)
 	groupPersonal.POST("/", validate.CreateUserMiddleware[models.Personal], personal.Create)
-	groupPersonal.PUT("/", personal.Update)
+	groupPersonal.PUT("/", validate.UpdateUserMiddleware[models.Personal], personal.Update)
 
-	groupUsers := router.Group("/user")
+	groupExercises := router.Group("/exercicios")
+	groupExercises.GET("/", exercises.All)
+
+	groupUsers := router.Group("/users")
 	groupUsers.GET("/", users.Index)
 	groupUsers.POST("/", validate.CreateUserMiddleware[models.User], users.Create)
 	groupUsers.PUT("/", users.Update)

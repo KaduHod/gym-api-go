@@ -13,10 +13,9 @@ func CreateUserMiddleware[T models.UserType](c *gin.Context) {
 	var userParams T
 	var errorsArr []string
 	requests.GetBodyJson(c.Request.Body, &userParams)
-	hasErrorKeys, errorsArr := checkKeys(errorsArr, userParams)
-	hasErrorValues, errorsArr := checkValues(errorsArr, userParams)
+	hasErrorKeys, errorsArr := checkCreateKeys(errorsArr, userParams)
+	hasErrorValues, errorsArr := checkCreateValues(errorsArr, userParams)
 
-	c.Abort()
 	if hasErrorKeys || hasErrorValues {
 		c.JSON(400, gin.H{
 			"errors": errorsArr,
@@ -27,7 +26,7 @@ func CreateUserMiddleware[T models.UserType](c *gin.Context) {
 	c.Next()
 }
 
-func checkKeys[T models.UserType](errorsArr []string, userParams T) (bool, []string) {
+func checkCreateKeys[T models.UserType](errorsArr []string, userParams T) (bool, []string) {
 
 	if userParams.GetName() == "" {
 		errorsArr = append(errorsArr, "name is required")
@@ -53,7 +52,7 @@ func checkKeys[T models.UserType](errorsArr []string, userParams T) (bool, []str
 
 }
 
-func checkValues[T models.UserType](errorsArr []string, userParams T) (bool, []string) {
+func checkCreateValues[T models.UserType](errorsArr []string, userParams T) (bool, []string) {
 	if len(strings.Trim(userParams.GetName(), " ")) < 5 {
 		errorsArr = append(errorsArr, "Name must have at least 5 caracters")
 	}
