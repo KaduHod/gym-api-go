@@ -3,6 +3,7 @@ package routes
 import (
 	"api/app/controllers/alunos"
 	"api/app/controllers/exercises"
+	"api/app/controllers/muscles"
 	"api/app/controllers/personal"
 	"api/app/controllers/users"
 	"api/app/middlewares/validate"
@@ -31,5 +32,8 @@ func Init(router *gin.Engine) {
 	groupUsers.POST("/", validate.CreateUserMiddleware[models.User], users.Create)
 	groupUsers.PUT("/", users.Update)
 	groupUsers.DELETE("/", users.Delete)
+
+	groupMuscles := router.Group("muscles")
+	groupMuscles.GET("/", muscles.List)
 
 }
