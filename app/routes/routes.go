@@ -6,6 +6,7 @@ import (
 	"api/app/controllers/muscles"
 	"api/app/controllers/personal"
 	"api/app/controllers/users"
+	"api/app/controllers/workout"
 	"api/app/middlewares/validate"
 	"api/app/models"
 
@@ -35,5 +36,9 @@ func Init(router *gin.Engine) {
 
 	groupMuscles := router.Group("muscles")
 	groupMuscles.GET("/", muscles.List)
+
+	groupWorkout := router.Group("/workouts")
+	groupWorkout.GET("/", workout.List)
+	groupWorkout.POST("/", workout.Create)
 
 }
