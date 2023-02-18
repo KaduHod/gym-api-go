@@ -10,13 +10,26 @@ import (
 
 func List(c *gin.Context) {
 	db := config.DatabaseConnection()
-	musclesRepository := repository.NewMuscelRepository(db)
-	listMusclesService := service.ListMusclesService{
-		MusclesRepository: &musclesRepository,
-		Params:            c.Request.URL.Query(),
+	MusclesGroupsRepository := repository.NewMuscelRepository(db)
+	listMusclesGroupsService := service.ListMusclesGroupsService{
+		MusclesGroupsRepository: &MusclesGroupsRepository,
+		Params:                  c.Request.URL.Query(),
 	}
 
 	c.JSON(200, gin.H{
-		"muscles": listMusclesService.Main(),
+		"muscles": listMusclesGroupsService.Main(),
+	})
+}
+
+func ListPortions(c *gin.Context) {
+	db := config.DatabaseConnection()
+	MusclesGroupsRepository := repository.NewMuscelRepository(db)
+	listMusclesGroupsService := service.ListMusclesGroupsService{
+		MusclesGroupsRepository: &MusclesGroupsRepository,
+		Params:                  c.Request.URL.Query(),
+	}
+
+	c.JSON(200, gin.H{
+		"muscles": listMusclesGroupsService.Main(),
 	})
 }

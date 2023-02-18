@@ -6,11 +6,11 @@ import (
 	"net/url"
 )
 
-type ListMusclesService struct {
-	MusclesRepository *repository.MusclesRepository
-	Params            url.Values
+type ListMusclesGroupsService struct {
+	MusclesGroupsRepository *repository.MusclesGroupsRepository
+	Params                  url.Values
 }
 
-func (s *ListMusclesService) Main() *[]models.Muscle {
-	return s.MusclesRepository.FindAll(s.Params)
+func (s *ListMusclesGroupsService) Main() *[]models.Muscle {
+	return s.MusclesGroupsRepository.FindAll(s.Params)
 }

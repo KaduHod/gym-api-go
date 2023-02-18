@@ -7,19 +7,19 @@ import (
 	"gorm.io/gorm"
 )
 
-type MusclesRepository struct {
+type MusclesGroupsRepository struct {
 	Db *gorm.DB
 }
 
-func NewMuscelRepository(Db *gorm.DB) MusclesRepository {
-	return MusclesRepository{
+func NewMuscelRepository(Db *gorm.DB) MusclesGroupsRepository {
+	return MusclesGroupsRepository{
 		Db: Db,
 	}
 }
 
-func (r *MusclesRepository) FindAll(params map[string][]string) *[]models.Muscle {
+func (r *MusclesGroupsRepository) FindAll(params map[string][]string) *[]models.Muscle {
 	var muscles []models.Muscle
-	query := r.Db.Table("muscles")
+	query := r.Db.Table("muscleGroup")
 
 	if params != nil {
 		for key, value := range params {
@@ -37,4 +37,12 @@ func (r *MusclesRepository) FindAll(params map[string][]string) *[]models.Muscle
 
 	query.Find(&muscles)
 	return &muscles
+}
+
+func (r *MusclesGroupsRepository) First(groupId int) *models.Muscle {
+	var muscle models.Muscle
+	query := r.Db.Table("muscleGroup").Where("id = ?", groupId)
+
+	query.Find(&muscle)
+	return &muscle
 }

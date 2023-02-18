@@ -9,3 +9,12 @@ type Muscle struct {
 	CreatedAt time.Time `json:"createdAt" gorm:"column:createdAt;autoCreateTime"`
 	UpdatedAt time.Time `json:"updatedAt" gorm:"column:updatedAt;autoUpdateTime"`
 }
+
+type MusclePortion struct {
+	Id            int       `json:"id"        gorm:"primary_key -all"`
+	Name          string    `json:"name"`
+	Image         string    `json:"image"`
+	MuscleGroupId int       `json:"muscleGooup_id"`
+	CreatedAt     time.Time `json:"createdAt" gorm:"column:createdAt;autoCreateTime"`
+	UpdatedAt     time.Time `json:"updatedAt" gorm:"column:updatedAt;autoUpdateTime"`
+}

@@ -34,8 +34,9 @@ func Init(router *gin.Engine) {
 	groupUsers.PUT("/", users.Update)
 	groupUsers.DELETE("/", users.Delete)
 
-	groupMuscles := router.Group("muscles")
-	groupMuscles.GET("/", muscles.List)
+	groupMusclesGroups := router.Group("/muscles")
+	groupMusclesGroups.GET("/", muscles.List)
+	groupMusclesGroups.GET("/:id/portion", muscles.ListPortions)
 
 	groupWorkout := router.Group("/workouts")
 	groupWorkout.GET("/", workout.List)
