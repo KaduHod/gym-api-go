@@ -503,11 +503,14 @@ INSERT INTO muscleGroup (name,image,created_at,updated_at) VALUES
 	 ('Core',NULL,'2023-02-18 19:56:28',NULL),
 	 ('Isquiotibials',NULL,'2023-02-18 19:56:28',NULL),
 	 ('Quadríceps',NULL,'2023-02-18 19:56:28',NULL),
-	 ('Calf',NULL,'2023-02-18 19:56:28',NULL)
-   ('Deltoids',NULL,'2023-02-18 20:08:02',NULL);
+	 ('Calf',NULL,'2023-02-18 19:56:28',NULL),
+   ('Deltoids',NULL,'2023-02-18 20:08:02',NULL),
+	 ('Neck',NULL,'2023-02-19 21:25:38',NULL);
+INSERT INTO muscleGroup (name,image,created_at,updated_at) VALUES
+	 
 
 
-   INSERT INTO musclePortion (name,image,muscleGroup_id,created_at,updated_at) VALUES
+ INSERT INTO musclePortion (name,image,muscleGroup_id,created_at,updated_at) VALUES
 	 ('Upper Major Chest',NULL,1,'2023-02-18 20:13:01','2023-02-18 20:42:50'),
 	 ('Medial Major Chest',NULL,1,'2023-02-18 20:13:01','2023-02-18 20:42:53'),
 	 ('Lower Major Chest',NULL,1,'2023-02-18 20:13:01','2023-02-18 20:42:55'),
@@ -556,7 +559,7 @@ INSERT INTO musclePortion (name,image,muscleGroup_id,created_at,updated_at) VALU
 	 ('Rectus Femoris',NULL,9,'2023-02-18 20:39:39',NULL),
 	 ('Gastrocnemius',NULL,10,'2023-02-18 20:40:41',NULL),
 	 ('Soleos',NULL,10,'2023-02-18 20:40:41',NULL),
-	 ('Anterior Deltoid',NULL,13,'2023-02-18 20:41:36','2023-02-18 20:43:45'),
-	 ('Medium Deltoid',NULL,13,'2023-02-18 20:41:36','2023-02-18 20:43:45'),
-	 ('Lateral Deltoid',NULL,13,'2023-02-18 20:41:36','2023-02-18 20:43:45');
-
+	 ('Anterior',NULL,11,'2023-02-18 20:41:36','2023-02-19 21:28:12'),
+	 ('Medium',NULL,11,'2023-02-18 20:41:36','2023-02-19 21:28:12'),
+	 ('Lateral',NULL,11,'2023-02-18 20:41:36','2023-02-19 21:28:12'),
+	 ('Sternocleidomastoid',NULL,12,'2023-02-19 21:27:00',NULL);

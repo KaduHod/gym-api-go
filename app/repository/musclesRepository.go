@@ -45,3 +45,11 @@ func (r *MusclesGroupsRepository) First(groupId int) *models.Muscle {
 	query.Find(&muscle)
 	return muscle
 }
+
+func (r *MusclesGroupsRepository) FindFirstWithPortions(groupId int) *models.Muscle {
+	var muscle *models.Muscle
+	muscle.Id = groupId
+	query := r.Db.Preload("musclePortion")
+	query.Find(&muscle)
+	return muscle
+}

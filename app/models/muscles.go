@@ -1,6 +1,8 @@
 package models
 
-import "time"
+import (
+	"time"
+)
 
 type Muscle struct {
 	Id        int              `json:"id"        gorm:"primary_key -all"`
