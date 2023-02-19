@@ -4,34 +4,41 @@ import (
 	"api/app/models"
 	"api/app/repository"
 	"errors"
-	"net/url"
-	"strconv"
-	"strings"
 )
 
 type ListMusclesGroupPortionService struct {
 	MuscleGroupRepository   *repository.MusclesGroupsRepository
 	MusclePortionRepository *repository.MusclesPortionRepository
-	Params                  url.Values
+	MuscleGroupId           int
 }
 
-func (s *ListMusclesGroupPortionService) Main() {
+func (s *ListMusclesGroupPortionService) Main() (*models.Muscle, error) {
 
+	muscle, err := s.getMusclesGroup()
+
+	if err != nil || muscle.Id == 0 {
+		return muscle, errors.New("Muscle group not find")
+	}
+
+	portions, erro := s.getMuscleGroupPortions()
+
+	if erro != nil {
+		return muscle, errors.New("Error searching for portions")
+	}
+
+	muscle.Portions = portions
+
+	return muscle, nil
 }
 
 func (s *ListMusclesGroupPortionService) getMusclesGroup() (*models.Muscle, error) {
-	var muscleGroup models.Muscle
-	groupId, ok := s.Params["MuscleGroup_id"]
-	if !ok {
-		return nil, errors.New("Not find muscleGRoup_id in params")
-	}
-
-	groupIdInt, ok := strconv.Atoi(strings.Join(groupId, " "))
-	s.MuscleGroupRepository.First(groupId)
-	return &muscleGroup, nil
+	var muscleGroup *models.Muscle
+	muscleGroup = s.MuscleGroupRepository.First(s.MuscleGroupId)
+	return muscleGroup, nil
 }
 
-func (s *ListMusclesGroupPortionService) getMUscleGroupPortions() (*[]models.MusclePortion, error) {
-	var musclePortions []models.MusclePortion
-	return &musclePortions, nil
+func (s *ListMusclesGroupPortionService) getMuscleGroupPortions() (*[]models.MusclePortion, error) {
+	var musclePortions *[]models.MusclePortion
+	musclePortions = s.MusclePortionRepository.FindByGroupId(s.MuscleGroupId)
+	return musclePortions, nil
 }

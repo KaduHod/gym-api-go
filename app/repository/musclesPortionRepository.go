@@ -30,12 +30,20 @@ func (r *MusclesPortionRepository) FindAll(params map[string][]string) *[]models
 					query.Where(whereClause, strings.Join(s, ""))
 				}
 			} else if key == "muscleGroup_id" {
-				query.Joins("JOIN muscleGroup on musclePortion.muscleGRoup_id = muscleGroup.id")
+				query.Joins("JOIN muscleGroup on musclePortion.muscleGroup_id = muscleGroup.id")
 			} else {
 				query.Where(key, value)
 			}
 		}
 	}
+
+	query.Find(&muscles)
+	return &muscles
+}
+
+func (r *MusclesPortionRepository) FindByGroupId(groupId int) *[]models.MusclePortion {
+	var muscles []models.MusclePortion
+	query := r.Db.Table("musclePortion").Select("musclePortion.*").Where("muscleGroup_id = ?", groupId)
 
 	query.Find(&muscles)
 	return &muscles

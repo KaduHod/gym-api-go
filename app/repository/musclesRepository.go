@@ -40,9 +40,8 @@ func (r *MusclesGroupsRepository) FindAll(params map[string][]string) *[]models.
 }
 
 func (r *MusclesGroupsRepository) First(groupId int) *models.Muscle {
-	var muscle models.Muscle
+	var muscle *models.Muscle
 	query := r.Db.Table("muscleGroup").Where("id = ?", groupId)
-
 	query.Find(&muscle)
-	return &muscle
+	return muscle
 }
