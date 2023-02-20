@@ -51,7 +51,7 @@ func (r *MusclesGroupsRepository) FindFirstWithPortions(groupId int) *models.Mus
 	var muscle models.Muscle
 	fmt.Println(groupId)
 	muscle.Id = groupId
-	query := r.Db.Preload("musclePortion").Table("muscleGroup")
+	query := r.Db.Preload("Portions").Table("muscleGroup")
 	query.Find(&muscle)
 	return &muscle
 }
