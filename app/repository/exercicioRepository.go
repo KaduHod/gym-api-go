@@ -40,3 +40,11 @@ func (r *ExercicioRepository) FindAll(params url.Values) *[]models.Exercise {
 	apiErrors.CheckPanic(result.Error)
 	return &exercicios
 }
+
+func (r *ExercicioRepository) FindExercisesByMusclePortion(musclePortionId int) {
+
+}
+
+func (r *ExercicioRepository) FindoExercisesByMuscleGroup(muscleGRoupId int) {
+
+}
