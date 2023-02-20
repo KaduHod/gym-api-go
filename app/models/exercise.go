@@ -3,14 +3,15 @@ package models
 import "time"
 
 type Exercise struct {
-	Id        int       `json:"id"        gorm:"primary_key -all"`
-	Name      string    `json:"name"`
-	Force     string    `json:"force"`
-	Execution string    `json:"execution"`
-	Mechanic  string    `json:"mechanic"`
-	Link      string    `json:"link"`
-	CreatedAt time.Time `json:"createdAt" gorm:"column:createdAt;autoCreateTime"`
-	UpdatedAt time.Time `json:"updatedAt" gorm:"column:updatedAt;autoUpdateTime"`
+	Id             int             `json:"id"        gorm:"primary_key -all"`
+	Name           string          `json:"name"`
+	Force          string          `json:"force"`
+	Execution      string          `json:"execution"`
+	Mechanic       string          `json:"mechanic"`
+	MusclePortions []MusclePortion `json:"muscles" gorm:"many2many:exercise_musclePortion"`
+	Link           string          `json:"link"`
+	CreatedAt      time.Time       `json:"createdAt" gorm:"column:createdAt;autoCreateTime"`
+	UpdatedAt      time.Time       `json:"updatedAt" gorm:"column:updatedAt;autoUpdateTime"`
 }
 
 func (e Exercise) GetId() int {
