@@ -1,0 +1,374 @@
+[
+        {
+            "new id": 48, 
+"id" : 47,
+            "name" : "Sternocleidomastoid",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 34, 
+"id" : 48,
+            "name" : "Rectus Abdominis",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": [32, 33], 
+"id" : 49,
+            "name" : "Obliques",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 35, 
+"id" : 50,
+            "name" : "Erector Spinae",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 9, 
+"id" : 51,
+            "name" : "Quadratus Lumborum",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 71, 
+"id" : 52,
+            "name" : "Iliopsoas",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 7, 
+"id" : 53,
+            "name" : "Latissimus Dorsi",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": [2,3], 
+"id" : 54,
+            "name" : "Pectoralis Major (Sternal Head)",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 1, 
+"id" : 55,
+            "name" : "Pectoralis Major (Clavicular Head)",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 11, 
+"id" : 56,
+            "name" : "Trapezius (Middle Fibers)",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 15, 
+"id" : 57,
+            "name" : "Levator Scapulae",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 72, 
+"id" : 58,
+            "name" : "Deltoid (Posterior)",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": [13, 14], 
+"id" : 59,
+            "name" : "Rhomboids",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 12, 
+"id" : 60,
+            "name" : "Trapezius (Lower Fibers)",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": [19, 20, 21], 
+"id" : 61,
+            "name" : "Triceps Brachii",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 4, 
+"id" : 62,
+            "name" : "Pectoralis Minor",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 49, 
+"id" : 63,
+            "name" : "Splenius",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 10, 
+"id" : 64,
+            "name" : "Trapezius (Upper Fibers)",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": [39, 40, 41, 42], 
+"id" : 65,
+            "name" : "Quadriceps",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 50, 
+"id" : 66,
+            "name" : "Tensor Fasciae Latae",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 51, 
+"id" : 67,
+            "name" : "Sartorius",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 43, 
+"id" : 68,
+            "name" : "Gastrocnemius",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 44, 
+"id" : 69,
+            "name" : "Soleus",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 26, 
+"id" : 70,
+            "name" : "Gluteus Medius",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 27, 
+"id" : 71,
+            "name" : "Gluteus Minimus",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 5, 
+"id" : 72,
+            "name" : "Serratus Anterior",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 45, 
+"id" : 73,
+            "name" : "Deltoid (Anterior)",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": [36, 37, 38], 
+"id" : 74,
+            "name" : "Hamstrings",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 47, 
+"id" : 75,
+            "name" : "Deltoid (Lateral)",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 52, 
+"id" : 76,
+            "name" : "Supraspinatus",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": [53,54,55], 
+"id" : 77,
+            "name" : "Wrist Extensors",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": [23, 24, 25], 
+"id" : 78,
+            "name" : "Wrist Flexors",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": [56,57,58], 
+"id" : 79,
+            "name" : "Adductors (Hip)",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": [16,17,18], 
+"id" : 80,
+            "name" : "Brachialis",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": [16,17,18], 
+"id" : 81,
+            "name" : "Brachioradialis",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": [16,17,18], 
+"id" : 82,
+            "name" : "Biceps Brachii",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 60, 
+"id" : 83,
+            "name" : "Infraspinatus",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 61, 
+"id" : 84,
+            "name" : "Teres Minor",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 63, 
+"id" : 85,
+            "name" : "Pectineus",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 59, 
+"id" : 86,
+            "name" : "Gracilis",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 62, 
+"id" : 87,
+            "name" : "Teres Major",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": [64,65,66,67,68], 
+"id" : 88,
+            "name" : "Hip External Rotators",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 69, 
+"id" : 90,
+            "name" : "Tibialis Anterior",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 30, 
+"id" : 91,
+            "name" : "Transverse Abdominis",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 73, 
+"id" : 92,
+            "name" : "Popliteus",
+            "image" : null,
+            "createdAt" : "2022-11-20 03:00:00",
+            "updatedAt" : "2022-11-20 03:00:00"
+        },
+        {
+            "new id": 70, 
+"id" : 93,
+            "name" : "Subscapularis",
+            "image" : null,
+            "createdAt" : null,
+            "updatedAt" : null
+        }
+    ]
+    
+
+
+    

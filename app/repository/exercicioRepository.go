@@ -45,6 +45,6 @@ func (r *ExercicioRepository) FindExercisesByMusclePortion(musclePortionId int) 
 
 }
 
-func (r *ExercicioRepository) FindoExercisesByMuscleGroup(muscleGRoupId int) {
+func (r *ExercicioRepository) FindoExercisesByMuscleGroup(muscleGroupId int) {
 
 }

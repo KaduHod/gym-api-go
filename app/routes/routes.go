@@ -15,6 +15,11 @@ import (
 
 func Init(router *gin.Engine) {
 
+	newFunction(router)
+
+}
+
+func newFunction(router *gin.Engine) {
 	groupAlunos := router.Group("/alunos")
 	groupAlunos.GET("/", alunos.All)
 	groupAlunos.POST("/", validate.CreateUserMiddleware[models.Aluno], alunos.Create)
@@ -41,5 +46,4 @@ func Init(router *gin.Engine) {
 	groupWorkout := router.Group("/workouts")
 	groupWorkout.GET("/", workout.List)
 	groupWorkout.POST("/", workout.Create)
-
 }

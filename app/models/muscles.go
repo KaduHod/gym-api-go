@@ -14,10 +14,11 @@ type Muscle struct {
 }
 
 type MusclePortion struct {
-	Id            int       `json:"id"        gorm:"primary_key -all"`
-	Name          string    `json:"name"`
-	Image         string    `json:"image"`
-	MuscleGroupId int       `json:"muscleGroup_id" gorm:"column:muscleGroup_id"`
-	CreatedAt     time.Time `json:"createdAt" gorm:"column:createdAt;autoCreateTime"`
-	UpdatedAt     time.Time `json:"updatedAt" gorm:"column:updatedAt;autoUpdateTime"`
+	Id            int        `json:"id"        gorm:"primary_key -all"`
+	Name          string     `json:"name"`
+	Image         string     `json:"image"`
+	MuscleGroupId int        `json:"muscleGroup_id" gorm:"column:muscleGroup_id"`
+	Exercises     []Exercise `json:"exercise" gorm:"many2many:exercise_musclePortion;"`
+	CreatedAt     time.Time  `json:"createdAt" gorm:"column:createdAt;autoCreateTime"`
+	UpdatedAt     time.Time  `json:"updatedAt" gorm:"column:updatedAt;autoUpdateTime"`
 }

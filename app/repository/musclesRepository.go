@@ -2,6 +2,7 @@ package repository
 
 import (
 	"api/app/models"
+	"fmt"
 	"strings"
 
 	"gorm.io/gorm"
@@ -47,9 +48,10 @@ func (r *MusclesGroupsRepository) First(groupId int) *models.Muscle {
 }
 
 func (r *MusclesGroupsRepository) FindFirstWithPortions(groupId int) *models.Muscle {
-	var muscle *models.Muscle
+	var muscle models.Muscle
+	fmt.Println(groupId)
 	muscle.Id = groupId
-	query := r.Db.Preload("musclePortion")
+	query := r.Db.Preload("musclePortion").Table("muscleGroup")
 	query.Find(&muscle)
-	return muscle
+	return &muscle
 }
