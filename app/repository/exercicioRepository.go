@@ -17,6 +17,16 @@ func NewExercicioRepository(Db *gorm.DB) ExercicioRepository {
 	return ExercicioRepository{Db}
 }
 
+func (r *ExercicioRepository) FindByMuscleId(muscleId int) *[]models.Exercise {
+	var exercises *[]models.Exercise
+	query := r.Db.Table("exercicios")
+	query.Preload("MusclePortions", func(db *gorm.DB) *gorm.DB {
+		return db.Table("exercicios").Where("exercise_musclePortion.exercise_id = ?", muscleId)
+	})
+	query.Find(&exercises)
+	return exercises
+}
+
 func (r *ExercicioRepository) FindAll(params url.Values) *[]models.Exercise {
 	var exercicios []models.Exercise
 	query := r.Db.Table("exercicios").Select([]string{"exercicios.*"})

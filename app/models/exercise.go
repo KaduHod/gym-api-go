@@ -8,7 +8,7 @@ type Exercise struct {
 	Force          string          `json:"force"`
 	Execution      string          `json:"execution"`
 	Mechanic       string          `json:"mechanic"`
-	MusclePortions []MusclePortion `json:"muscles" gorm:"many2many:exercise_musclePortion"`
+	MusclePortions []MusclePortion `json:"muscles" gorm:"many2many:exercise_musclePortion;ForeignKey:Id;joinForeignKey:exercise_id"`
 	Link           string          `json:"link"`
 	CreatedAt      time.Time       `json:"createdAt" gorm:"column:createdAt;autoCreateTime"`
 	UpdatedAt      time.Time       `json:"updatedAt" gorm:"column:updatedAt;autoUpdateTime"`
