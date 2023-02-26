@@ -24,19 +24,47 @@ func (r *MusclesGroupsRepository) FindAll(params map[string][]string) *[]models.
 
 	if params != nil {
 		for key, value := range params {
-			if key == "name" {
-				for _, value := range value {
-					whereClause := key + " like ?"
-					s := []string{"%", value, "%"}
-					query.Where(whereClause, strings.Join(s, ""))
+			if key != "portions" {
+				if key == "name" {
+					for _, value := range value {
+						whereClause := key + " like ?"
+						s := []string{"%", value, "%"}
+						query.Where(whereClause, strings.Join(s, ""))
+					}
+				} else {
+					query.Where(key, value)
 				}
-			} else {
-				query.Where(key, value)
 			}
 		}
 	}
 
 	query.Find(&muscles)
+	return &muscles
+}
+
+func (r *MusclesGroupsRepository) FindAllWithPortions(params map[string][]string) *[]models.Muscle {
+	var muscles []models.Muscle
+	query := r.Db.Table("muscleGroup")
+
+	fmt.Println(params)
+
+	if params != nil {
+		for key, value := range params {
+			if key != "portions" {
+				if key == "name" {
+					for _, value := range value {
+						whereClause := key + " like ?"
+						s := []string{"%", value, "%"}
+						query.Where(whereClause, strings.Join(s, ""))
+					}
+				} else {
+					query.Where(key, value)
+				}
+			}
+		}
+	}
+
+	query.Preload("Portions").Find(&muscles)
 	return &muscles
 }
 
@@ -51,7 +79,7 @@ func (r *MusclesGroupsRepository) FindFirstWithPortions(groupId int) *models.Mus
 	var muscle models.Muscle
 	fmt.Println(groupId)
 	muscle.Id = groupId
-	query := r.Db.Preload("Portions").Table("muscleGroup")
+	query := r.Db.Preload("Portions")
 	query.Find(&muscle)
 	return &muscle
 }

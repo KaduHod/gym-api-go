@@ -4,6 +4,7 @@ import (
 	"api/app/controllers/alunos"
 	"api/app/controllers/exercises"
 	"api/app/controllers/muscles"
+	"api/app/controllers/musclesGroups"
 	"api/app/controllers/personal"
 	"api/app/controllers/users"
 	"api/app/controllers/workout"
@@ -41,9 +42,12 @@ func newFunction(router *gin.Engine) {
 	groupUsers.PUT("/", users.Update)
 	groupUsers.DELETE("/", users.Delete)
 
-	groupMusclesGroups := router.Group("/muscles")
-	groupMusclesGroups.GET("/", muscles.List)
-	groupMusclesGroups.GET("/:id/portion", muscles.ListPortions)
+	groupMusclesGroups := router.Group("/muscle-groups")
+	groupMusclesGroups.GET("/", musclesGroups.List)
+	groupMusclesGroups.GET("/:id/portion", musclesGroups.ListPortions)
+
+	groupMusclePortions := router.Group("/muscles")
+	groupMusclePortions.GET("/", muscles.List)
 
 	groupWorkout := router.Group("/workouts")
 	groupWorkout.GET("/", workout.List)

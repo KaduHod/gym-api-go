@@ -17,6 +17,11 @@ func NewMusclePortionRepository(Db *gorm.DB) MusclesPortionRepository {
 	}
 }
 
+func (r *MusclesPortionRepository) All() *[]models.MusclePortion {
+	var muscles []models.MusclePortion
+	r.Db.Find(&muscles)
+	return &muscles
+}
 func (r *MusclesPortionRepository) FindAll(params map[string][]string) *[]models.MusclePortion {
 	var muscles []models.MusclePortion
 	query := r.Db.Table("musclePortion").Select("musclePortion.*")
