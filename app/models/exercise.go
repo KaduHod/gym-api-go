@@ -19,7 +19,7 @@ type ExerciseMusclePortion struct {
 	Id              int           `json:"-"        gorm:"primaryKey;autoIncrement;"`
 	ExerciseId      int           `json:"-"`
 	Exercise        Exercise      `json:"-"`
-	MusclePortionId int           `json:"-"`
+	MusclePortionId int           `json:"-" gorm:"column:muscle_id"`
 	MusclePortion   MusclePortion `json:"muscle"`
 	Role            string        `json:"role"`
 	CreatedAt       time.Time     `json:"-" gorm:"column:createdAt;autoCreateTime"`

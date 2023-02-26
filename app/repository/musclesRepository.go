@@ -17,6 +17,13 @@ func NewMuscelRepository(Db *gorm.DB) MusclesGroupsRepository {
 		Db: Db,
 	}
 }
+func (r *MusclesGroupsRepository) FindByNameWithPortionAndExercises(muscleName string) *models.Muscle {
+	var muscle models.Muscle
+	r.Db.Preload("Portions", func(db *gorm.DB) *gorm.DB {
+		return db.Preload("Exercises")
+	}).Find(&muscle)
+	return &muscle
+}
 
 func (r *MusclesGroupsRepository) FindAll(params map[string][]string) *[]models.Muscle {
 	var muscles []models.Muscle

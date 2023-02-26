@@ -45,9 +45,11 @@ func newFunction(router *gin.Engine) {
 	groupMusclesGroups := router.Group("/muscle-groups")
 	groupMusclesGroups.GET("/", musclesGroups.List)
 	groupMusclesGroups.GET("/:id/portion", musclesGroups.ListPortions)
+	groupMusclesGroups.GET("/exercises/:name", musclesGroups.Exercises)
 
 	groupMusclePortions := router.Group("/muscles")
 	groupMusclePortions.GET("/", muscles.List)
+	groupMusclePortions.GET("/:id/execises", muscles.Exercises)
 
 	groupWorkout := router.Group("/workouts")
 	groupWorkout.GET("/", workout.List)

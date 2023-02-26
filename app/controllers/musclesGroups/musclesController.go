@@ -60,3 +60,18 @@ func ListPortions(c *gin.Context) {
 		"muscles": muscles,
 	})
 }
+
+func Exercises(c *gin.Context) {
+	db := config.DatabaseConnection()
+	muscleGroupName := c.Param("name")
+	MusclesGroupsRepository := repository.NewMuscelRepository(db)
+
+	service := service.ListExercisesByMuscleGroupService{
+		MuscleGroupRepository: &MusclesGroupsRepository,
+		MuscleGroupName:       muscleGroupName,
+	}
+
+	c.JSON(200, gin.H{
+		"muscles": service.Main(),
+	})
+}
