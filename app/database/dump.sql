@@ -496,7 +496,7 @@ INSERT INTO muscleGroup (id,name,image,created_at,updated_at) VALUES
 	 (12,'Neck',NULL,'2023-02-19 21:25:38',NULL),
 	 (13,"Hip",NULL,'2023-02-19 21:25:38',NULL);
 
-INSERT INTO musclePortion (id,name,image,muscleGroup_id,created_at,updated_at) VALUES
+INSERT INTO muscle_portion (id,name,image,muscleGroup_id,created_at,updated_at) VALUES
 	 (1,'Upper Major Chest',NULL,1,'2023-02-18 20:13:01','2023-02-18 20:42:50'),
 	 (2,'Medial Major Chest',NULL,1,'2023-02-18 20:13:01','2023-02-18 20:42:53'),
 	 (3,'Lower Major Chest',NULL,1,'2023-02-18 20:13:01','2023-02-18 20:42:55'),
@@ -507,7 +507,7 @@ INSERT INTO musclePortion (id,name,image,muscleGroup_id,created_at,updated_at) V
 	 (8,'Posterior Serratus',NULL,2,'2023-02-18 20:17:23','2023-02-18 20:24:17'),
 	 (9,'Lumbar',NULL,2,'2023-02-18 20:17:23',NULL),
 	 (10,'Upper Trapezius',NULL,2,'2023-02-18 20:21:20',NULL);
-INSERT INTO musclePortion (id,name,image,muscleGroup_id,created_at,updated_at) VALUES
+INSERT INTO muscle_portion (id,name,image,muscleGroup_id,created_at,updated_at) VALUES
 	 (11,'Medial Trapezius',NULL,2,'2023-02-18 20:21:20',NULL),
 	 (12,'Lower Trapezius',NULL,2,'2023-02-18 20:21:20',NULL),
 	 (13,'Minor Rhomboid',NULL,2,'2023-02-18 20:21:20',NULL),
@@ -518,7 +518,7 @@ INSERT INTO musclePortion (id,name,image,muscleGroup_id,created_at,updated_at) V
 	 (18,'Brachialis',NULL,3,'2023-02-18 20:27:11','2023-02-18 20:43:16'),
 	 (19,'Long head',NULL,4,'2023-02-18 20:29:04',NULL),
 	 (20,'Short head',NULL,4,'2023-02-18 20:29:04',NULL);
-INSERT INTO musclePortion (id,name,image,muscleGroup_id,created_at,updated_at) VALUES
+INSERT INTO muscle_portion (id,name,image,muscleGroup_id,created_at,updated_at) VALUES
 	 (21,'Lateral head',NULL,4,'2023-02-18 20:29:04',NULL),
 	 (22,'Pronator teres',NULL,5,'2023-02-18 20:31:13',NULL),
 	 (23,'FLexor carpi radials',NULL,5,'2023-02-18 20:31:13',NULL),
@@ -529,7 +529,7 @@ INSERT INTO musclePortion (id,name,image,muscleGroup_id,created_at,updated_at) V
 	 (28,'Glúteos maximus',NULL,6,'2023-02-18 20:32:35',NULL),
 	 (29,'Pelvic floor',NULL,7,'2023-02-18 20:35:37',NULL),
 	 (30,'Transversus Abdominis',NULL,7,'2023-02-18 20:35:37','2023-02-18 20:36:12');
-INSERT INTO musclePortion (id,name,image,muscleGroup_id,created_at,updated_at) VALUES
+INSERT INTO muscle_portion (id,name,image,muscleGroup_id,created_at,updated_at) VALUES
 	 (31,'Multifidus',NULL,7,'2023-02-18 20:35:37',NULL),
 	 (32,'Internal Obliques',NULL,7,'2023-02-18 20:35:37',NULL),
 	 (33,'External Obliques',NULL,7,'2023-02-18 20:35:37',NULL),
@@ -540,7 +540,7 @@ INSERT INTO musclePortion (id,name,image,muscleGroup_id,created_at,updated_at) V
 	 (38,'Semimembranosus',NULL,8,'2023-02-18 20:37:28',NULL),
 	 (39,'Vastus lateralis',NULL,9,'2023-02-18 20:39:39',NULL),
 	 (40,'Vastus medials',NULL,9,'2023-02-18 20:39:39',NULL);
-INSERT INTO musclePortion (id,name,image,muscleGroup_id,created_at,updated_at) VALUES
+INSERT INTO muscle_portion (id,name,image,muscleGroup_id,created_at,updated_at) VALUES
 	 (41,'Vastus intermedius',NULL,9,'2023-02-18 20:39:39',NULL),
 	 (42,'Rectus Femoris',NULL,9,'2023-02-18 20:39:39',NULL),
 	 (43,'Gastrocnemius',NULL,10,'2023-02-18 20:40:41',NULL),
@@ -551,7 +551,7 @@ INSERT INTO musclePortion (id,name,image,muscleGroup_id,created_at,updated_at) V
 	 (48,'Sternocleidomastoid',NULL,12,'2023-02-19 21:27:00',NULL),
 	 (49,'Splenius',NULL,12,'2023-02-20 13:56:18',NULL),
 	 (50,'Tensor Fasciae Latae',NULL,9,'2023-02-20 14:03:41',NULL);
-INSERT INTO musclePortion (id,name,image,muscleGroup_id,created_at,updated_at) VALUES
+INSERT INTO muscle_portion (id,name,image,muscleGroup_id,created_at,updated_at) VALUES
 	 (51,'Sartorius',NULL,9,'2023-02-20 14:03:45',NULL),
 	 (52,'Supraspinatus',NULL,2,'2023-02-20 14:03:48',NULL),
 	 (53,'Extensor Carpi Radialis Longus',NULL,5,'2023-02-20 14:03:51',NULL),
@@ -562,7 +562,7 @@ INSERT INTO musclePortion (id,name,image,muscleGroup_id,created_at,updated_at) V
 	 (58,'Adductor magnus',NULL,13,'2023-02-20 14:07:20','2023-02-20 14:11:08'),
 	 (59,'Gracillis',NULL,13,'2023-02-20 14:07:20','2023-02-20 14:11:08'),
 	 (60,'Infraspinatus',NULL,2,'2023-02-20 14:09:07',NULL);
-INSERT INTO musclePortion (id,name,image,muscleGroup_id,created_at,updated_at) VALUES
+INSERT INTO muscle_portion (id,name,image,muscleGroup_id,created_at,updated_at) VALUES
 	 (61,'Teres Minor',NULL,2,'2023-02-20 14:09:41',NULL),
 	 (62,'Teres Major',NULL,2,'2023-02-20 14:13:41',NULL),
 	 (63,'Pectineus',NULL,13,'2023-02-20 14:13:54',NULL),
@@ -578,7 +578,7 @@ INSERT INTO musclePortion (id,name,image,muscleGroup_id,created_at,updated_at) V
 
 
 
-CREATE TABLE `exercise_musclePortion` (
+CREATE TABLE `exercise_muscle_portions` (
   `id` int NOT NULL AUTO_INCREMENT,
   `muscle_id` int NOT NULL,
   `exercise_id` int unsigned NOT NULL,
@@ -586,15 +586,15 @@ CREATE TABLE `exercise_musclePortion` (
   `updatedAt` datetime DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
   `role` enum('agonist','synergist','stabilizer','antagonist stabilizer','dynamic stabilizer') DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `exercise_muscle_musclePortion_id_foreign` (`muscle_id`),
-  KEY `exercise_musclePortion_exercise_id_foreign` (`exercise_id`),
-  CONSTRAINT `exercise_muscle_musclePortion_id_foreign` FOREIGN KEY (`muscle_id`) REFERENCES `musclePortion` (`id`) ON DELETE CASCADE,
-  CONSTRAINT `exercise_musclePortion_exercise_id_foreign` FOREIGN KEY (`exercise_id`) REFERENCES `exercicios` (`id`) ON DELETE CASCADE
+  KEY `exercise_exercise_muscle_portions_id_foreign` (`muscle_id`),
+  KEY `exercise_muscle_portions_exercise_id_foreign` (`exercise_id`),
+  CONSTRAINT `exercise_exercise_muscle_portions_id_foreign` FOREIGN KEY (`muscle_id`) REFERENCES `musclePortion` (`id`) ON DELETE CASCADE,
+  CONSTRAINT `exercise_muscle_portions_exercise_id_foreign` FOREIGN KEY (`exercise_id`) REFERENCES `exercicios` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=19590 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 
 
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (48,882,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (48,883,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (35,883,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
@@ -605,7 +605,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (48,885,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (32,885,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (33,885,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (9,885,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (48,886,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (48,887,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -616,7 +616,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (48,889,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (32,889,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (33,889,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (9,889,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (48,890,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (48,891,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -627,7 +627,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (48,893,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (49,893,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (15,893,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (48,894,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (49,894,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (15,894,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -638,7 +638,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (9,895,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (48,898,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (35,898,'2023-02-20 16:04:49',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (48,899,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (26,899,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (27,899,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -649,7 +649,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,901,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (33,901,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (49,902,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (49,903,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (49,904,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (49,905,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -660,7 +660,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (49,910,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (49,911,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (49,913,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,913,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (32,913,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (33,913,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
@@ -671,7 +671,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,966,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (52,985,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,985,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (60,985,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (34,985,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (32,985,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
@@ -682,7 +682,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,986,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (32,986,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (33,986,'2023-02-20 16:04:49',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (52,987,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,987,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (60,987,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -693,7 +693,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (61,989,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (60,989,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (34,1008,'2023-02-20 16:04:49',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1008,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (33,1008,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (32,1009,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -704,7 +704,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (9,1009,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (63,1009,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (59,1009,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (52,1009,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (15,1009,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (60,1011,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -715,7 +715,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1011,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (18,1011,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (34,1011,'2023-02-20 16:04:49',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1011,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (33,1011,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (16,1011,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
@@ -726,7 +726,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (13,1012,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (14,1012,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (16,1012,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,1012,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (18,1012,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (16,1012,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
@@ -737,7 +737,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1013,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (34,1014,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (32,1014,'2023-02-20 16:04:49',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1014,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (60,1017,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,1017,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -748,7 +748,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (18,1017,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (34,1017,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (32,1017,'2023-02-20 16:04:49',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1017,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (16,1017,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (17,1017,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
@@ -759,7 +759,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (14,1018,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (16,1018,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (17,1018,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1018,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (16,1018,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (17,1018,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
@@ -770,7 +770,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (14,1019,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (16,1019,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (17,1019,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1019,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (34,1019,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (32,1019,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
@@ -781,7 +781,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (60,1020,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,1020,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1020,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (14,1020,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (16,1020,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (17,1020,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -792,7 +792,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1020,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (17,1020,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (18,1020,'2023-02-20 16:04:49',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (60,1021,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,1021,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1021,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -803,7 +803,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,1021,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (32,1021,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (33,1021,'2023-02-20 16:04:49',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (16,1021,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (17,1021,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (18,1021,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
@@ -814,7 +814,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1022,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (17,1022,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (18,1022,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (16,1022,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (17,1022,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (18,1022,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
@@ -825,7 +825,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (61,1025,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1025,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (14,1025,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (60,1026,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,1026,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1026,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -836,7 +836,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1026,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (17,1026,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (18,1026,'2023-02-20 16:04:49',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (60,1027,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,1027,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1027,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -847,7 +847,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1027,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (17,1027,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (18,1027,'2023-02-20 16:04:49',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (60,1028,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,1028,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1028,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -858,7 +858,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1028,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (17,1028,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (18,1028,'2023-02-20 16:04:49',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (60,1029,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,1029,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1029,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -869,7 +869,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1029,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (17,1029,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (18,1029,'2023-02-20 16:04:49',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (60,1030,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,1030,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1030,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -880,7 +880,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (13,1031,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (14,1031,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (60,1032,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (61,1032,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1032,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (14,1032,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -891,7 +891,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (61,1033,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (16,1033,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (17,1033,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1033,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1033,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (14,1033,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -902,7 +902,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (61,1034,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1034,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (14,1034,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (60,1035,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,1035,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1035,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -913,7 +913,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (14,1036,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (16,1036,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (17,1036,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1036,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (7,1036,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (16,1036,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
@@ -924,7 +924,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (13,1037,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (14,1037,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (60,1039,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (61,1039,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1039,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (14,1039,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -935,7 +935,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1039,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (17,1039,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (18,1039,'2023-02-20 16:04:49',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (60,1041,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,1041,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1041,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -946,7 +946,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1042,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (18,1042,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1042,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (14,1042,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (34,1042,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (32,1042,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
@@ -957,7 +957,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (60,1043,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,1043,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1043,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (14,1043,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (60,1044,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,1044,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -968,7 +968,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1044,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (60,1045,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,1045,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (13,1045,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (14,1045,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (34,1045,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
@@ -979,7 +979,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (13,1046,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (14,1046,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (16,1046,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,1046,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (18,1046,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (7,1046,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -990,7 +990,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (61,1047,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1047,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (14,1047,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (60,1048,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,1048,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1048,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -1001,7 +1001,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (14,1049,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (60,1050,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,1050,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (13,1050,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (14,1050,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (60,1051,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -1012,7 +1012,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (61,1052,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (16,1052,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (17,1052,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1052,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1052,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (14,1052,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -1023,7 +1023,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1052,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (18,1052,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (60,1053,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (61,1053,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (13,1053,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (14,1053,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -1034,7 +1034,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1053,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (33,1053,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (16,1053,'2023-02-20 16:04:49',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,1053,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (18,1053,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (60,1054,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -1045,7 +1045,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1054,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (18,1054,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (34,1054,'2023-02-20 16:04:49',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1054,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (33,1054,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (16,1054,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
@@ -1056,7 +1056,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (13,1055,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (14,1055,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (16,1055,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,1055,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (18,1055,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (34,1055,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
@@ -1067,7 +1067,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (18,1055,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (60,1056,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,1056,'2023-02-20 16:04:49',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (13,1056,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (14,1056,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (16,1056,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -1078,7 +1078,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1056,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (16,1056,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (17,1056,'2023-02-20 16:04:49',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1056,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (60,1057,'2023-02-20 16:04:49',NULL,'synergist'),
 	 (61,1057,'2023-02-20 16:04:49',NULL,'synergist'),
@@ -1089,7 +1089,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1057,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (19,1060,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1060,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (21,1060,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (16,1060,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (17,1060,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
@@ -1100,7 +1100,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1061,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (17,1061,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (18,1061,'2023-02-20 16:04:49',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (19,1062,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1062,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1062,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1111,7 +1111,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (20,1063,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1063,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (16,1063,'2023-02-20 16:04:49',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,1063,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (18,1063,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (19,1064,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1122,7 +1122,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (18,1064,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (19,1065,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1065,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (21,1065,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (19,1066,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1066,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1133,7 +1133,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (19,1068,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1068,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1068,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (19,1069,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1069,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1069,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1144,7 +1144,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (20,1071,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1071,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (35,1071,'2023-02-20 16:04:49',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (19,1072,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1072,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1072,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1155,7 +1155,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (35,1073,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (19,1074,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1074,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (21,1074,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (35,1074,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (19,1075,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1166,7 +1166,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (21,1076,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (19,1077,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1077,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (21,1077,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (19,1078,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1078,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1177,7 +1177,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (19,1080,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1080,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1080,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (35,1080,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (19,1081,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1081,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1188,7 +1188,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (35,1082,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (19,1083,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1083,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (21,1083,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (35,1083,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (19,1084,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1199,7 +1199,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (20,1085,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1085,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (19,1086,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (20,1086,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1086,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (35,1086,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
@@ -1210,7 +1210,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (19,1088,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1088,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1088,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (35,1088,'2023-02-20 16:04:49',NULL,'antagonist stabilizer'),
 	 (19,1089,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1089,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1221,7 +1221,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (21,1090,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (19,1091,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1091,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (21,1091,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (16,1091,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (17,1091,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
@@ -1232,7 +1232,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (19,1093,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1093,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1093,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (19,1094,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1094,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1094,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1243,7 +1243,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (20,1096,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1096,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (19,1097,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (20,1097,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1097,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (19,1098,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1254,7 +1254,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (21,1099,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (19,1100,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1100,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (21,1100,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (19,1101,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1101,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1265,7 +1265,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (19,1103,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1103,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1103,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (19,1104,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1104,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1104,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1276,7 +1276,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1105,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (18,1105,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (19,1106,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (20,1106,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1106,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (16,1106,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
@@ -1287,7 +1287,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (21,1107,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (19,1108,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1108,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (21,1108,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (19,1109,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1109,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1298,7 +1298,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (19,1110,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1110,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1110,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (19,1111,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1111,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1111,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1309,7 +1309,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (20,1113,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1113,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (16,1113,'2023-02-20 16:04:49',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,1113,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (18,1113,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (19,1114,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1320,7 +1320,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (18,1114,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (19,1115,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1115,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (21,1115,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (16,1115,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (17,1115,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
@@ -1331,7 +1331,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1117,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (17,1117,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (18,1117,'2023-02-20 16:04:49',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (19,1118,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1118,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1118,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1342,7 +1342,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (20,1121,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (21,1121,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (16,1121,'2023-02-20 16:04:49',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,1121,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (18,1121,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (19,1122,'2023-02-20 16:04:49',NULL,'agonist'),
@@ -1353,7 +1353,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (18,1122,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (19,1123,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (20,1123,'2023-02-20 16:04:49',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (21,1123,'2023-02-20 16:04:49',NULL,'agonist'),
 	 (16,1123,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
 	 (17,1123,'2023-02-20 16:04:49',NULL,'dynamic stabilizer'),
@@ -1364,7 +1364,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1288,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1288,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (16,1289,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,1289,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1289,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (16,1290,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
@@ -1375,7 +1375,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (18,1291,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (16,1292,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1292,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1292,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (16,1293,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1293,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
@@ -1386,7 +1386,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1295,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1295,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1295,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (35,1296,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1296,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1296,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1397,7 +1397,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1296,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1296,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1296,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (16,1296,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1296,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1296,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
@@ -1408,7 +1408,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1297,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1297,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (16,1298,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,1298,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1298,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (16,1299,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
@@ -1419,7 +1419,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (18,1300,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (16,1301,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1301,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1301,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (34,1302,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (32,1302,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
@@ -1430,7 +1430,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,1304,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (32,1304,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (33,1304,'2023-02-20 16:06:06',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (16,1304,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1304,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1304,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
@@ -1441,7 +1441,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1307,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1307,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (16,1309,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,1309,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1309,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (16,1310,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
@@ -1452,7 +1452,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (14,1311,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (7,1311,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1311,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (60,1311,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (61,1311,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (16,1311,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1463,7 +1463,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (18,1311,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (34,1312,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (32,1312,'2023-02-20 16:06:06',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1312,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (16,1312,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1312,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
@@ -1474,7 +1474,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1315,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1315,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1315,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,1316,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (32,1316,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (33,1316,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
@@ -1485,7 +1485,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1317,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (33,1317,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (16,1317,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,1317,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1317,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (34,1318,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
@@ -1496,7 +1496,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (18,1318,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (34,1319,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (32,1319,'2023-02-20 16:06:06',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1319,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (16,1319,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1319,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
@@ -1507,7 +1507,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1320,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1320,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1320,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,1321,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (32,1321,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (33,1321,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
@@ -1518,7 +1518,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1324,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (33,1324,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (16,1324,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,1324,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1324,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (34,1325,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
@@ -1529,7 +1529,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (18,1325,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (34,1326,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (16,1326,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,1326,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1326,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (34,1327,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
@@ -1540,7 +1540,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (18,1327,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (7,1330,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1330,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,1330,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1330,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1330,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1551,7 +1551,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1330,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1330,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1330,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (7,1331,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1331,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1331,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1562,7 +1562,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (15,1331,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1331,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (16,1331,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,1331,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1331,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (7,1332,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -1573,7 +1573,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (13,1332,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1332,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1332,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (4,1332,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (16,1332,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1332,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
@@ -1584,7 +1584,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (18,1333,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1333,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (60,1333,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (61,1333,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1333,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1333,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1595,7 +1595,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1334,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1334,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1334,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (13,1334,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1334,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1334,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1606,7 +1606,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (18,1335,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1335,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1335,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (14,1335,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1335,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1335,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1617,7 +1617,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1338,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1338,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1338,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (13,1338,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1338,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1338,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1628,7 +1628,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (7,1339,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1339,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1339,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1339,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1339,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1339,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1639,7 +1639,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1339,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1339,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (7,1340,'2023-02-20 16:06:06',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (16,1340,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1340,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1340,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1650,7 +1650,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (4,1340,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (16,1340,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1340,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1340,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (7,1341,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1341,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1661,7 +1661,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (14,1341,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1341,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1341,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (16,1341,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1341,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1341,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
@@ -1672,7 +1672,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (62,1342,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1342,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1342,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (15,1342,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1342,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (16,1342,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
@@ -1683,7 +1683,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1344,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1344,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1344,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (62,1344,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (60,1344,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (61,1344,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1694,7 +1694,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (7,1345,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1345,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1345,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1345,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1345,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (60,1345,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1705,7 +1705,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (4,1345,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (7,1346,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1346,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,1346,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1346,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1346,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1716,7 +1716,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1346,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1346,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1346,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (7,1347,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1347,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1347,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1727,7 +1727,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (13,1347,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1347,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1347,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (4,1347,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (7,1348,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1348,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1738,7 +1738,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (61,1348,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1348,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1348,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (15,1348,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1348,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (7,1349,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -1749,7 +1749,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1352,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1352,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1352,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (13,1352,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1352,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1352,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1760,7 +1760,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (7,1353,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1353,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1353,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1353,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1353,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1353,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1771,7 +1771,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1353,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1353,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (7,1354,'2023-02-20 16:06:06',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (16,1354,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1354,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1354,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1782,7 +1782,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (4,1354,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (16,1354,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1354,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1354,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (7,1355,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1355,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1793,7 +1793,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (61,1355,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1355,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1355,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (15,1355,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1355,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (7,1356,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -1804,7 +1804,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (4,1356,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1356,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1356,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (15,1356,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (7,1357,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1357,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1815,7 +1815,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (13,1357,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1357,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1357,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (7,1358,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1358,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1358,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1826,7 +1826,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (13,1358,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1358,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1358,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (4,1358,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (7,1359,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1359,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1837,7 +1837,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (61,1359,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1359,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1359,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (15,1359,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1359,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (7,1360,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -1848,7 +1848,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (68,1360,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (16,1360,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1360,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1360,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (7,1361,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1361,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1859,7 +1859,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (14,1361,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1361,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1361,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (16,1361,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1361,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1361,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
@@ -1870,7 +1870,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (62,1362,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1362,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1362,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (15,1362,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1362,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (16,1362,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
@@ -1881,7 +1881,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1363,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1363,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1363,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (60,1363,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (61,1363,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1363,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1892,7 +1892,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1364,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1364,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1364,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (62,1364,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1364,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1364,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1903,7 +1903,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1366,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1366,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1366,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (62,1366,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1366,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1366,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1914,7 +1914,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1367,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1367,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1367,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (13,1367,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1367,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1367,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1925,7 +1925,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (7,1369,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1369,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1369,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1369,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1369,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1369,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1936,7 +1936,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1369,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1369,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (7,1371,'2023-02-20 16:06:06',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (16,1371,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1371,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1371,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1947,7 +1947,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (14,1371,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1371,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1371,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (7,1372,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (62,1372,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1372,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1958,7 +1958,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1373,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1373,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1373,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (62,1373,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1373,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1373,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1969,7 +1969,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1375,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1375,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1375,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (13,1375,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1375,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1375,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1980,7 +1980,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1377,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1377,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1377,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (13,1377,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1377,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1377,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -1991,7 +1991,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (7,1379,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1379,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1379,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1379,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1379,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1379,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2002,7 +2002,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1379,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1379,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (7,1380,'2023-02-20 16:06:06',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (16,1380,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1380,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1380,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2013,7 +2013,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (4,1380,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (16,1380,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1380,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1380,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (7,1381,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1381,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2024,7 +2024,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (14,1381,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1381,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1381,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (16,1381,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1381,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1381,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
@@ -2035,7 +2035,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (62,1382,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1382,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1382,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (15,1382,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1382,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (16,1382,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
@@ -2046,7 +2046,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1383,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1383,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1383,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (60,1383,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (61,1383,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1383,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2057,7 +2057,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1384,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1384,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1384,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (62,1384,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1384,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1384,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2068,7 +2068,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1385,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1385,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1385,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (13,1385,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1385,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1385,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2079,7 +2079,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (18,1386,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1386,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1386,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (13,1386,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1386,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1386,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2090,7 +2090,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (62,1387,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1387,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1387,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (15,1387,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1387,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (16,1387,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
@@ -2101,7 +2101,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1388,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1388,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1388,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (13,1388,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1388,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1388,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2112,7 +2112,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (7,1389,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1389,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1389,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1389,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1389,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (60,1389,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2123,7 +2123,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (4,1389,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (7,1390,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1390,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,1390,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1390,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1390,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2134,7 +2134,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (7,1391,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1391,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1391,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1391,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1391,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1391,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2145,7 +2145,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (16,1392,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1392,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1392,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (62,1392,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1392,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1392,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2156,7 +2156,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (18,1392,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (7,1393,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1393,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,1393,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1393,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1393,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2167,7 +2167,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (7,1395,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1395,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1395,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1395,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1395,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1395,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2178,7 +2178,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (17,1395,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1395,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (7,1396,'2023-02-20 16:06:06',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (16,1396,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1396,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1396,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2189,7 +2189,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (4,1396,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (16,1396,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1396,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1396,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (7,1397,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1397,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2200,7 +2200,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (61,1397,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1397,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1397,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (15,1397,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1397,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (7,1398,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -2211,7 +2211,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (13,1398,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1398,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1398,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (4,1398,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (7,1399,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1399,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2222,7 +2222,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (14,1399,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1399,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1399,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (7,1400,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1400,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1400,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2233,7 +2233,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (14,1400,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1400,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (7,1401,'2023-02-20 16:06:06',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (16,1401,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (17,1401,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (18,1401,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2244,7 +2244,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (4,1401,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (16,1401,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1401,'2023-02-20 16:06:06',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (18,1401,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (7,1402,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1402,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2255,7 +2255,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (61,1402,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1402,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1402,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (15,1402,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1402,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (7,1403,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -2266,7 +2266,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (4,1403,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1403,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1403,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (15,1403,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (7,1404,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (16,1404,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2277,7 +2277,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (14,1404,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1404,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1404,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (16,1404,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (17,1404,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
 	 (18,1404,'2023-02-20 16:06:06',NULL,'dynamic stabilizer'),
@@ -2288,7 +2288,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (62,1405,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (60,1405,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (61,1405,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (13,1405,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1405,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1405,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2299,7 +2299,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (18,1406,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1406,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1406,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (13,1406,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1406,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1406,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2310,7 +2310,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (62,1407,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1407,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1407,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (15,1407,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1407,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (7,1408,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -2321,7 +2321,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (60,1408,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (61,1408,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1408,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (14,1408,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1408,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1408,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2332,7 +2332,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (13,1409,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1409,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (35,1409,'2023-02-20 16:06:06',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (71,1410,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (50,1410,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1410,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2343,7 +2343,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (13,1410,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1410,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (35,1410,'2023-02-20 16:06:06',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,1411,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (7,1411,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1411,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2354,7 +2354,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (60,1460,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (61,1460,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (60,1461,'2023-02-20 16:06:06',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (61,1461,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (61,1462,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (60,1462,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2365,7 +2365,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (61,1464,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (60,1465,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (61,1465,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (60,1466,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (61,1466,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (61,1467,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -2376,7 +2376,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (61,1469,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (60,1469,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (52,1469,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (61,1470,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (60,1470,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (52,1470,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2387,7 +2387,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (52,1472,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (60,1480,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (61,1480,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (13,1480,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1480,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1480,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
@@ -2398,7 +2398,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (35,1506,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (7,1511,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1511,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (4,1511,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1511,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1511,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2409,7 +2409,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (13,1637,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (14,1637,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (15,1637,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (7,1638,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1638,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (4,1638,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2420,7 +2420,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (35,1656,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (35,1670,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (35,1676,'2023-02-20 16:06:06',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (35,1677,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (35,1678,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (35,1679,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
@@ -2431,7 +2431,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (35,1697,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (35,1699,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (35,1714,'2023-02-20 16:06:06',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (35,1715,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (35,1716,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (5,1730,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -2442,7 +2442,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (5,1735,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (5,1736,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (5,1739,'2023-02-20 16:06:06',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (35,1739,'2023-02-20 16:06:06',NULL,'antagonist stabilizer'),
 	 (34,1740,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (32,1740,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2453,7 +2453,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (51,1741,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1741,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1741,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,1742,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (32,1742,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1742,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2464,7 +2464,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (51,1743,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1743,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1743,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,1744,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (71,1744,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (50,1744,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2475,7 +2475,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,1745,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (71,1745,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (50,1745,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (51,1745,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (63,1745,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1745,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2486,7 +2486,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,1747,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (32,1747,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1747,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,1748,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (32,1748,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1748,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2497,7 +2497,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1750,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1750,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1751,'2023-02-20 16:06:06',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1751,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1751,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1752,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -2508,7 +2508,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1753,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1754,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (71,1754,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (50,1754,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1754,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1754,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2519,7 +2519,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,1756,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (32,1756,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1756,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (50,1756,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (63,1756,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1756,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2530,7 +2530,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (71,1758,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (50,1758,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (63,1758,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (51,1758,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1758,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1758,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2541,7 +2541,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (71,1760,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (50,1760,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (63,1760,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (51,1760,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1760,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1760,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2552,7 +2552,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1762,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1762,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1763,'2023-02-20 16:06:06',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1763,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1763,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1764,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -2563,7 +2563,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1765,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1766,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (32,1766,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1766,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1767,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (32,1767,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2574,7 +2574,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,1768,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (71,1768,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (50,1768,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (51,1768,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1768,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1768,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2585,7 +2585,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1770,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1770,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1771,'2023-02-20 16:06:06',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1771,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1771,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1772,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -2596,7 +2596,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1773,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1774,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (32,1774,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1774,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1775,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (71,1775,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2607,7 +2607,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,1776,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (71,1776,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (50,1776,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (51,1776,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1776,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1776,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2618,7 +2618,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (63,1777,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1777,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1777,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (7,1777,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (62,1777,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (13,1777,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2629,7 +2629,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (71,1778,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1778,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (63,1778,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1778,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1778,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (19,1778,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2640,7 +2640,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (50,1779,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1779,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1779,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1779,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1780,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (71,1780,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2651,7 +2651,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,1781,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (71,1781,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (50,1781,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (63,1781,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1781,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1781,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2662,7 +2662,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (63,1782,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1782,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1782,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1782,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1783,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (71,1783,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2673,7 +2673,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1783,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1784,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (71,1784,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (50,1784,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (63,1784,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1784,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2684,7 +2684,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (50,1785,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (63,1785,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1785,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1785,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1785,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1786,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -2695,7 +2695,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1786,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1786,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1787,'2023-02-20 16:06:06',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (71,1787,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (50,1787,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (63,1787,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2706,7 +2706,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1788,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (34,1788,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1789,'2023-02-20 16:06:06',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1789,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (34,1789,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1790,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -2717,7 +2717,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,1791,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1792,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (33,1792,'2023-02-20 16:06:06',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,1792,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1793,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (33,1793,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -2728,7 +2728,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1795,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (33,1795,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (71,1795,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (50,1795,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1795,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1795,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2739,7 +2739,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (51,1796,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1796,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1797,'2023-02-20 16:06:06',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1797,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (71,1797,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (50,1797,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2750,7 +2750,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (71,1798,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (50,1798,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1798,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,1798,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1801,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (32,1801,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2761,7 +2761,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,1803,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (32,1803,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1803,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,1804,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (32,1804,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1804,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2772,7 +2772,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1806,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1806,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1807,'2023-02-20 16:06:06',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1807,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1807,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1808,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -2783,7 +2783,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (50,1809,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (63,1809,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1809,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1809,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1809,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1810,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -2794,7 +2794,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1810,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1810,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1811,'2023-02-20 16:06:06',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (71,1811,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (50,1811,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (63,1811,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2805,7 +2805,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (71,1812,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (50,1812,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1812,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (63,1812,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1812,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1812,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2816,7 +2816,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,1813,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (71,1813,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (50,1813,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (63,1813,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1813,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1813,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2827,7 +2827,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (63,1814,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1814,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1814,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1814,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1815,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (71,1815,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2838,7 +2838,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1815,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1816,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (71,1816,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (50,1816,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (63,1816,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1816,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2849,7 +2849,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (50,1817,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (63,1817,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1817,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1817,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1817,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1818,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -2860,7 +2860,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1818,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1818,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (39,1818,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,1818,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (41,1818,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (42,1818,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2871,7 +2871,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (51,1819,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (32,1819,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1819,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,1820,'2023-02-20 16:06:06',NULL,'agonist'),
 	 (71,1820,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (50,1820,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2882,7 +2882,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (71,1821,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (50,1821,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1821,'2023-02-20 16:06:06',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1821,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1821,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1822,'2023-02-20 16:06:06',NULL,'agonist'),
@@ -2893,7 +2893,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1822,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (33,1822,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (34,1823,'2023-02-20 16:06:06',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (71,1823,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (50,1823,'2023-02-20 16:06:06',NULL,'synergist'),
 	 (51,1823,'2023-02-20 16:06:06',NULL,'synergist'),
@@ -2904,7 +2904,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (50,1824,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (51,1824,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (32,1824,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1824,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,1825,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (71,1825,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -2915,7 +2915,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,1826,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (71,1826,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (50,1826,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (63,1826,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (51,1826,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (32,1826,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -2926,7 +2926,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (71,1827,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (50,1827,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (63,1827,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (51,1827,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (35,1827,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (13,1827,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -2937,7 +2937,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (71,1828,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (50,1828,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (63,1828,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (51,1828,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (35,1828,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (13,1828,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -2948,7 +2948,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,1829,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (38,1829,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,1829,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1829,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,1829,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (34,1831,'2023-02-20 16:06:29',NULL,'agonist'),
@@ -2959,7 +2959,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (14,1831,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (35,1831,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (34,1832,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (71,1832,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (50,1832,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (63,1832,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -2970,7 +2970,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (35,1833,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (13,1833,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (14,1833,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1840,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1840,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (34,1840,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -2981,7 +2981,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (66,1841,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (67,1841,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (68,1841,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (9,1841,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (32,1842,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1842,'2023-02-20 16:06:29',NULL,'agonist'),
@@ -2992,7 +2992,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1844,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1844,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (32,1845,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1845,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (32,1847,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1847,'2023-02-20 16:06:29',NULL,'agonist'),
@@ -3003,7 +3003,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (26,1848,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (9,1848,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (32,1849,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1849,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (50,1849,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (26,1849,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3014,7 +3014,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (26,1850,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (9,1850,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (32,1851,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1851,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (9,1851,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (32,1852,'2023-02-20 16:06:29',NULL,'agonist'),
@@ -3025,7 +3025,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (67,1852,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (68,1852,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (9,1852,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1853,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1853,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (9,1853,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3036,7 +3036,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1856,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (34,1856,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (32,1857,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1857,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (32,1858,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1858,'2023-02-20 16:06:29',NULL,'agonist'),
@@ -3047,7 +3047,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1860,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (32,1863,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1863,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1864,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1864,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (34,1864,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3058,7 +3058,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1866,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (34,1866,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (71,1866,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (50,1866,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (51,1866,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (32,1867,'2023-02-20 16:06:29',NULL,'agonist'),
@@ -3069,7 +3069,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1869,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (32,1870,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1870,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (64,1870,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (65,1870,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (66,1870,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3080,7 +3080,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1871,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (9,1871,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (32,1872,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1872,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (9,1872,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (35,1885,'2023-02-20 16:06:29',NULL,'agonist'),
@@ -3091,7 +3091,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,1885,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (38,1885,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,1885,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1890,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1890,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (32,1891,'2023-02-20 16:06:29',NULL,'agonist'),
@@ -3102,7 +3102,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1893,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (9,1893,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (32,1894,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1894,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (26,1894,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (27,1894,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3113,7 +3113,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (52,1894,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (32,1895,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1895,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (26,1895,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (27,1895,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (50,1895,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3124,7 +3124,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1896,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1896,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (71,1896,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (50,1896,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (63,1896,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (51,1896,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3135,7 +3135,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (63,1897,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (51,1897,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (32,1898,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1898,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (71,1898,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (50,1898,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3146,7 +3146,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (71,1899,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (50,1899,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (51,1899,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,1899,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (32,1900,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1900,'2023-02-20 16:06:29',NULL,'agonist'),
@@ -3157,7 +3157,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1901,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1901,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (71,1901,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (50,1901,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (51,1901,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,1901,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3168,7 +3168,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (51,1902,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,1902,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (32,1903,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1903,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (34,1903,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (32,1904,'2023-02-20 16:06:29',NULL,'agonist'),
@@ -3179,7 +3179,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,1905,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (32,1906,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1906,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,1906,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (32,1907,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1907,'2023-02-20 16:06:29',NULL,'agonist'),
@@ -3190,7 +3190,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1909,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1909,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (34,1909,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1910,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1910,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (32,1911,'2023-02-20 16:06:29',NULL,'agonist'),
@@ -3201,7 +3201,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (51,1911,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (63,1911,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (35,1911,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1912,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1912,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (9,1912,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3212,7 +3212,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (59,1912,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (32,1913,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1913,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (26,1913,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (27,1913,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (50,1913,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3223,7 +3223,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1914,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (33,1914,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (26,1914,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (27,1914,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (50,1914,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,1914,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3234,7 +3234,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (71,1915,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (50,1915,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (51,1915,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (63,1915,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (9,1915,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (35,1915,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3245,7 +3245,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1916,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,1916,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,1917,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1917,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (32,1917,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,1917,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3256,7 +3256,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (35,1926,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (34,1926,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,1926,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1926,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (35,1927,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (34,1927,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3267,7 +3267,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1928,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,1928,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (35,1929,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,1929,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,1929,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,1929,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3278,7 +3278,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (35,1931,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (34,1931,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,1931,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1931,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (36,1931,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,1931,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3289,7 +3289,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1932,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,1932,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (36,1932,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,1932,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,1932,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,1932,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3300,7 +3300,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (35,1934,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (36,1934,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (37,1934,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,1934,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,1934,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,1934,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3311,7 +3311,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1935,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (36,1935,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,1935,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,1935,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,1935,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (35,1936,'2023-02-20 16:06:29',NULL,'agonist'),
@@ -3322,7 +3322,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,1937,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (37,1937,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (38,1937,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,1937,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,1937,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,1937,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3333,7 +3333,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (35,1939,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (36,1939,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (37,1939,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,1939,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,1939,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,1939,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3344,7 +3344,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,1940,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,1940,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,1940,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1940,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (35,1942,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (34,1942,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3355,7 +3355,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,1942,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,1942,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (35,1943,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,1943,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,1943,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,1943,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3366,7 +3366,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,1944,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,1944,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,1944,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (35,1945,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (35,1948,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (35,1949,'2023-02-20 16:06:29',NULL,'agonist'),
@@ -3377,7 +3377,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (35,1951,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (34,1951,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,1951,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1951,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (35,1952,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (34,1952,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3388,7 +3388,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,1953,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (38,1953,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,1953,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1953,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,1953,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (35,1954,'2023-02-20 16:06:29',NULL,'agonist'),
@@ -3399,7 +3399,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (35,1962,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (35,1963,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (35,1964,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (35,1965,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (34,1965,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,1965,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3410,7 +3410,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (35,1966,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (34,1966,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,1966,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1966,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (36,1966,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,1966,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3421,7 +3421,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1967,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (35,1968,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (34,1968,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1968,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,1968,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (35,1969,'2023-02-20 16:06:29',NULL,'agonist'),
@@ -3432,7 +3432,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (62,1969,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (13,1969,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (14,1969,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (15,1969,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (4,1969,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (35,1970,'2023-02-20 16:06:29',NULL,'agonist'),
@@ -3443,7 +3443,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (35,1975,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (35,1976,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (35,1977,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (35,1978,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (35,1979,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (36,1979,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3454,7 +3454,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,1979,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (35,1829,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (34,1829,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,1829,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (33,1829,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (71,1829,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3465,7 +3465,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,1981,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,1981,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (35,1982,'2023-02-20 16:06:29',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,1982,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,1982,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,1982,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3476,7 +3476,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (35,1984,'2023-02-20 16:06:29',NULL,'agonist'),
 	 (34,1984,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,1984,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,1984,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (34,1995,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,1995,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3487,7 +3487,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,1927,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,1927,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (39,1928,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,1928,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,1928,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,1928,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3498,7 +3498,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,1929,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,1929,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (39,1930,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,1930,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,1930,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,1930,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3509,7 +3509,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,1931,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,1931,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (39,1932,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,1932,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,1932,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,1932,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3520,7 +3520,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,1933,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2003,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (37,2003,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2003,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,2003,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,2003,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3531,7 +3531,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2004,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,2004,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,2004,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2005,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2005,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2005,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3542,7 +3542,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2005,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2005,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2005,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2006,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2006,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2006,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3553,7 +3553,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,2006,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2006,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2007,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,2007,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2007,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2007,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3564,7 +3564,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2007,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2008,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2008,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2008,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2008,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2008,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3575,7 +3575,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2009,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2009,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2009,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2009,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2009,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2009,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3586,7 +3586,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2010,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2010,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2010,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2010,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2010,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2010,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3597,7 +3597,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (41,2011,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2011,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2011,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2011,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2011,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2011,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3608,7 +3608,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2012,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2012,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2012,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,2012,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2012,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2012,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3619,7 +3619,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (44,2013,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2013,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2013,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2013,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2013,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2014,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3630,7 +3630,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2014,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2014,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2014,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (43,2014,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2015,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2015,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3641,7 +3641,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2015,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2015,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2015,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2016,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2016,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2016,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3652,7 +3652,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,2016,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (36,2016,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2016,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2016,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2016,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2017,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3663,7 +3663,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2017,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,2017,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,2017,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2017,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2017,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2017,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3674,7 +3674,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2018,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2018,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,2018,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,2018,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,2018,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (36,2018,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3685,7 +3685,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2019,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2019,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2019,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2019,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,2019,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,2019,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3696,7 +3696,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2019,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2020,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2020,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2020,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2020,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2020,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3707,7 +3707,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2020,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2020,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2020,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2021,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2021,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2021,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3718,7 +3718,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,2021,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (36,2021,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2021,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2021,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2021,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2022,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3729,7 +3729,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2022,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,2022,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,2022,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2022,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2022,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2022,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3740,7 +3740,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (13,2023,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (14,2023,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,2023,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,2023,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,2023,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (36,2023,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3751,7 +3751,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2024,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2024,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2024,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2024,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,2024,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,2024,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3762,7 +3762,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2024,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2025,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2025,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2025,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2025,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2025,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3773,7 +3773,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2025,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2025,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2025,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2026,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2026,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2026,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3784,7 +3784,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,2026,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (36,2026,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2026,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2026,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2026,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2027,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3795,7 +3795,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2027,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,2027,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,2027,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2027,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2027,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2027,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3806,7 +3806,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (44,2028,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,2028,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (36,2028,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,2028,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2028,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,1935,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3817,7 +3817,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (35,1936,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,1936,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (37,1936,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,1936,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2031,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (37,2031,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3828,7 +3828,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2032,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2032,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2032,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2033,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2033,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2033,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3839,7 +3839,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,2033,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2033,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2034,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,2034,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2034,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2034,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3850,7 +3850,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2034,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2035,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2035,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2035,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2035,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2035,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3861,7 +3861,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2036,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2036,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2036,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2036,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2036,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2036,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3872,7 +3872,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2037,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2037,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2037,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2037,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2037,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2037,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3883,7 +3883,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (41,2038,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2038,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2038,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2038,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2038,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2038,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3894,7 +3894,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2039,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2039,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2039,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,2039,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2039,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2039,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3905,7 +3905,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (44,2040,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,2040,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,2040,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,2040,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (36,2040,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2040,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3916,7 +3916,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (41,2041,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2041,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2041,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,2041,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,2041,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,2041,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3927,7 +3927,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2042,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2042,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2042,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2042,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2042,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2042,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3938,7 +3938,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2043,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (38,2043,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,2043,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2044,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (37,2044,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (38,2044,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3949,7 +3949,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (44,2045,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,2045,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,2045,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,2045,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (36,2045,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2045,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3960,7 +3960,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,1938,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2047,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (37,2047,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2047,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,2047,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,2047,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -3971,7 +3971,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2048,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2048,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2048,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,2048,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2048,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2048,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -3982,7 +3982,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (44,2049,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2049,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2049,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2049,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2049,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2050,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -3993,7 +3993,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2050,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2050,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2050,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (43,2050,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2051,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2051,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4004,7 +4004,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2051,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2051,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2051,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2052,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2052,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2052,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4015,7 +4015,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,2052,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2052,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (36,2053,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,2053,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (38,2053,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,2053,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -4026,7 +4026,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (41,2054,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2054,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2054,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2054,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2054,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2054,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -4037,7 +4037,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2055,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2055,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2055,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,2055,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2055,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2055,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -4048,7 +4048,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (44,2056,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2056,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2056,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2056,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2056,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2057,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4059,7 +4059,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2057,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,2057,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,2057,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2057,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2057,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2057,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -4070,7 +4070,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2058,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2058,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,2058,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,2058,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,2058,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (36,2058,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -4081,7 +4081,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2059,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2059,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2059,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2059,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,2059,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,2059,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -4092,7 +4092,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2060,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2060,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2060,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2060,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2060,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,2060,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -4103,7 +4103,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2061,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2061,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2061,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2061,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,2061,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (36,2061,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -4114,7 +4114,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,2062,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,1942,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,1942,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,1942,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,1942,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,1942,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4125,7 +4125,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2065,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (37,2065,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (38,2065,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,2065,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,2065,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,2065,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -4136,7 +4136,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2066,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,2066,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,2066,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2066,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2066,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2066,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -4147,7 +4147,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2067,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,2067,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,2067,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2067,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2067,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2067,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -4158,7 +4158,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (44,2068,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2068,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2068,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2068,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2068,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2069,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4169,7 +4169,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2069,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2069,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2069,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (43,2069,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2070,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2070,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4180,7 +4180,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2070,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2070,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2070,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2071,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2071,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2071,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4191,7 +4191,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,2071,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2071,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2072,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,2072,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2072,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2072,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4202,7 +4202,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2072,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2073,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2073,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2073,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2073,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2073,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4213,7 +4213,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2074,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2074,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2074,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2074,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2074,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2074,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -4224,7 +4224,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2075,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2075,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2075,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2075,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2075,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2075,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -4235,7 +4235,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (41,2076,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2076,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2076,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2076,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2076,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2076,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -4246,7 +4246,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,2077,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2078,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2078,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2078,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2078,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2078,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4257,7 +4257,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2078,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2079,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2079,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2079,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2079,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2079,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4268,7 +4268,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2080,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2080,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2080,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2080,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2080,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2080,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -4279,7 +4279,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2081,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (38,2081,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,2081,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,2081,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,2081,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (39,2082,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4290,7 +4290,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2082,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2082,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2082,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (43,2082,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2083,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2083,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4301,7 +4301,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2083,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2083,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2083,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2084,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2084,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2084,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4312,7 +4312,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,2084,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2084,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2085,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,2085,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2085,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2085,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4323,7 +4323,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2085,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2086,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2086,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2086,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2086,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2086,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4334,7 +4334,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2087,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2087,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2087,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2087,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2087,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2087,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -4345,7 +4345,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2088,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2088,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2088,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2088,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (34,2088,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,2088,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -4356,7 +4356,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2088,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2090,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2090,'2023-02-20 16:06:29',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2090,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (42,2090,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2090,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4367,7 +4367,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2090,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2090,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2090,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2091,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (40,2091,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (41,2091,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4378,7 +4378,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,2091,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (36,2091,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2091,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2091,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2091,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (39,2092,'2023-02-20 16:06:29',NULL,'synergist'),
@@ -4389,7 +4389,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2092,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (32,2092,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
 	 (33,2092,'2023-02-20 16:06:29',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2092,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2092,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2092,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -4400,7 +4400,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2093,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (44,2093,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2093,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,2093,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (38,2093,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2093,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
@@ -4411,7 +4411,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (44,2094,'2023-02-20 16:06:29',NULL,'synergist'),
 	 (36,2094,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (37,2094,'2023-02-20 16:06:29',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2094,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (43,2094,'2023-02-20 16:06:29',NULL,'dynamic stabilizer'),
 	 (34,2095,'2023-02-20 16:06:29',NULL,'antagonist stabilizer'),
@@ -4422,7 +4422,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2097,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (34,2098,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (34,2099,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2100,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (37,2100,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (38,2100,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4433,7 +4433,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,2101,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2102,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2102,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2102,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2102,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2102,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4444,7 +4444,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2103,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2103,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2103,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2103,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2103,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2103,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -4455,7 +4455,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2104,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2104,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2104,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2104,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2104,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2104,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -4466,7 +4466,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,2105,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (36,2106,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (37,2106,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2106,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (34,2106,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (39,2107,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4477,7 +4477,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2107,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (38,2107,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (39,2108,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,2108,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2108,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2108,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4488,7 +4488,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2108,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2108,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2108,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (43,2108,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2109,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2109,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4499,7 +4499,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2109,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2109,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2109,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2110,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2110,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2110,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4510,7 +4510,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,2110,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2110,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2111,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,2111,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2111,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2111,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4521,7 +4521,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2111,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2112,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2112,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2112,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2112,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2112,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4532,7 +4532,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2113,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2113,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2113,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2113,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2113,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2113,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -4543,7 +4543,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2114,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2114,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2114,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2114,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2114,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2114,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -4554,7 +4554,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (41,2115,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2115,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2115,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2115,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2115,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2115,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -4565,7 +4565,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2116,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2116,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2116,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,2116,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2116,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2116,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -4576,7 +4576,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (44,2117,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2117,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2117,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2117,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2117,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2118,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4587,7 +4587,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2118,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2118,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2118,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (43,2118,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2119,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2119,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4598,7 +4598,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2119,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2119,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2119,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2120,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2120,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2120,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4609,7 +4609,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (41,2121,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2121,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2121,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2121,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2121,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2121,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -4620,7 +4620,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2122,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2122,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2122,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,2122,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2122,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2122,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -4631,7 +4631,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (44,2123,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2123,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2123,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2123,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2123,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (36,2124,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
@@ -4642,7 +4642,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (41,2125,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2125,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2125,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,2125,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (38,2125,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (39,2126,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4653,7 +4653,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2126,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2126,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2126,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (43,2126,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2127,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2127,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4664,7 +4664,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2127,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2127,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2127,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2128,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2128,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2128,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4675,7 +4675,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,2128,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2128,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2129,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,2129,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2129,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2129,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4686,7 +4686,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2129,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,1951,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,1951,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,1951,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,1951,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,1951,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4697,7 +4697,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2133,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (32,2133,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (33,2133,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2134,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2134,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2134,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4708,7 +4708,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,2134,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2134,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2135,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,2135,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2135,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2135,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4719,7 +4719,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2135,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2136,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2136,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2136,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2136,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2136,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4730,7 +4730,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2137,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2137,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2137,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2137,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2137,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (34,2137,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
@@ -4741,7 +4741,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,2137,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2137,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2138,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,2138,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2138,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2138,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4752,7 +4752,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2138,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2138,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2138,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (43,2138,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2139,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2139,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4763,7 +4763,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,2139,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (33,2139,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (36,2139,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,2139,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2139,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2139,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -4774,7 +4774,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (44,2140,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (34,2140,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (32,2140,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,2140,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (36,2140,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2140,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -4785,7 +4785,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (41,2141,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2141,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2141,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,2141,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (32,2141,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (33,2141,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
@@ -4796,7 +4796,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2142,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2142,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2142,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2142,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2142,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2142,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -4807,7 +4807,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2143,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2143,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2143,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2143,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (34,2143,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (32,2143,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
@@ -4818,7 +4818,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2143,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (36,2144,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (37,2144,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2144,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (34,2144,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (32,2144,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
@@ -4829,7 +4829,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2145,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2145,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2145,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,2145,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2145,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2145,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -4840,7 +4840,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (44,2149,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2149,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2149,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2149,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2149,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2150,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4851,7 +4851,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2150,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2150,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2150,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (43,2150,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (36,2151,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (37,2151,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4862,7 +4862,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2152,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (32,2152,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (33,2152,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2154,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2154,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2154,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4873,7 +4873,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,2154,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (36,2154,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2154,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2154,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2154,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2155,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4884,7 +4884,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2155,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (32,2155,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (33,2155,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2155,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2155,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2155,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -4895,7 +4895,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2156,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2156,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (34,2156,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,2156,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (33,2156,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (36,2156,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -4906,7 +4906,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2157,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2157,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2157,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2157,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (34,2157,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (32,2157,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
@@ -4917,7 +4917,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2157,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2158,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2158,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2158,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2158,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2158,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4928,7 +4928,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2158,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2158,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2158,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2159,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2159,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2159,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -4939,7 +4939,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2159,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2160,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2160,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2160,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2160,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2160,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4950,7 +4950,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2161,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2161,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2161,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2161,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2161,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2161,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -4961,7 +4961,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2162,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (38,2162,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (34,2162,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,2162,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (33,2162,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (39,2163,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4972,7 +4972,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2163,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2163,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2163,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (43,2163,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2164,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2164,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4983,7 +4983,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2164,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2164,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2164,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2166,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2166,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2166,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -4994,7 +4994,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,2166,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (36,2166,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2166,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2166,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2167,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2167,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5005,7 +5005,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,2167,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (33,2167,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (36,2167,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,2167,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2167,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2168,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5016,7 +5016,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2168,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (32,2168,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (33,2168,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2168,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2168,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2168,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -5027,7 +5027,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (44,2169,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (34,2169,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (32,2169,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,2169,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (36,2169,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2169,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -5038,7 +5038,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2170,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2170,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2170,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,2170,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2170,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2170,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -5049,7 +5049,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (44,2171,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2171,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2171,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2171,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2171,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2172,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5060,7 +5060,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2172,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2172,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2172,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (43,2172,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2173,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2173,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5071,7 +5071,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2173,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2173,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2173,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2174,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2174,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2174,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5082,7 +5082,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,2174,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2174,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2175,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,2175,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (41,2175,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (42,2175,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5093,7 +5093,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2175,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2175,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2175,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,2176,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (32,2176,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (33,2176,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
@@ -5104,7 +5104,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2177,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (44,2177,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2177,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,2177,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2177,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2177,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
@@ -5115,7 +5115,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (44,2178,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2178,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2178,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2178,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2178,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2179,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5126,7 +5126,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2179,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2179,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2179,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (43,2179,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2180,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (40,2180,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5137,7 +5137,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2180,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2180,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2180,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (26,2197,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (27,2197,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (50,2197,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5148,7 +5148,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (27,2199,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (50,2199,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (50,2200,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (26,2200,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (27,2200,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (26,2201,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5159,7 +5159,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (50,2203,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (26,2203,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (27,2203,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (26,2204,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (27,2204,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (50,2205,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5170,7 +5170,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (27,2206,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (50,2209,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (26,2209,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (27,2209,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (32,2209,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (33,2209,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5181,7 +5181,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,2210,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (33,2210,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (9,2210,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (15,2210,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (50,2211,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (26,2211,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5192,7 +5192,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (50,2212,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (26,2212,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (27,2212,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (71,2231,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2231,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2231,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5203,7 +5203,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (13,2231,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (14,2231,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (35,2231,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (71,2232,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2232,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (63,2232,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5214,7 +5214,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (51,2233,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (71,2234,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2234,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (51,2234,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (63,2234,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (71,2235,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5225,7 +5225,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (50,2236,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2236,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (63,2236,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (71,2237,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2237,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (63,2237,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5236,7 +5236,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (51,2238,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (71,2239,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2239,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (63,2239,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2239,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (71,2240,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5247,7 +5247,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (50,2241,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (63,2241,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2241,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (71,2242,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2242,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2242,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5258,7 +5258,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (51,2243,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (71,2244,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2244,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (63,2244,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2244,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (71,2245,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5269,7 +5269,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (50,2246,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2246,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (63,2246,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (71,2247,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2247,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (63,2247,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5280,7 +5280,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (51,2248,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (71,2249,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2249,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (63,2249,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2249,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (71,2250,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5291,7 +5291,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (50,2251,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (63,2251,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2251,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (71,2252,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2252,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2252,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5302,7 +5302,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (51,2253,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (71,2254,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2254,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (63,2254,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2254,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (71,2255,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5313,7 +5313,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (50,2256,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (63,2256,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2256,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (71,2257,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2257,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (63,2257,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5324,7 +5324,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (63,2258,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (71,2259,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2259,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (51,2259,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (63,2259,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (71,2260,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5335,7 +5335,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (50,2261,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (63,2261,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2261,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (71,2262,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2262,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (63,2262,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5346,7 +5346,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (63,2263,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (71,2264,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2264,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (51,2264,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (63,2264,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (71,2265,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5357,7 +5357,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (50,2266,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (63,2266,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2266,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (71,2267,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2267,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (63,2267,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5368,7 +5368,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (63,2268,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (71,2269,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2269,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (51,2269,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (63,2269,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (35,2269,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
@@ -5379,7 +5379,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (63,2270,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2270,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (71,2271,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (50,2271,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2271,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (63,2271,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5390,7 +5390,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (71,2274,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2274,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2274,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (63,2274,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (71,2275,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (50,2275,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5401,7 +5401,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (63,2276,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2276,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (35,2276,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (13,2276,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (14,2276,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (71,2277,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5412,7 +5412,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (13,2277,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (14,2277,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (39,2006,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,2006,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2006,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2006,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5423,7 +5423,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2008,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2008,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2008,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2008,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2009,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2009,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5434,7 +5434,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (41,2010,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2010,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2011,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,2011,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2011,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2011,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5445,7 +5445,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2013,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2013,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2013,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2013,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2014,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2014,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5456,7 +5456,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (41,2015,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2015,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2317,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,2317,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2317,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2317,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5467,7 +5467,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2317,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2317,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2317,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2018,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2018,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2018,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5478,7 +5478,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2019,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2020,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2020,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2020,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2020,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2021,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5489,7 +5489,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2022,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2022,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2022,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2023,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2023,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2023,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5500,7 +5500,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2024,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2025,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2025,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2025,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2025,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2026,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5511,7 +5511,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2027,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2027,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2027,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2028,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2028,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2028,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5522,7 +5522,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2033,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2033,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2033,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2034,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2034,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2034,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5533,7 +5533,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2035,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2036,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2036,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2036,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2036,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2037,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5544,7 +5544,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2038,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2038,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2038,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2039,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2039,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2039,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5555,7 +5555,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2040,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2041,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2041,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2041,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2041,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2042,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5566,7 +5566,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2339,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2339,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2339,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,2339,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (32,2339,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (33,2339,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
@@ -5577,7 +5577,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2340,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2340,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2340,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2340,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (71,2340,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (50,2340,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -5588,7 +5588,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2341,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (36,2341,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2341,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2341,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (43,2341,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2045,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5599,7 +5599,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2048,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2048,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2048,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2049,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2049,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2049,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5610,7 +5610,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2050,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2051,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2051,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2051,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2051,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2052,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5621,7 +5621,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2054,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2054,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2054,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2055,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2055,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2055,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5632,7 +5632,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2056,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2057,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2057,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2057,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2057,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2058,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5643,7 +5643,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2059,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2059,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2059,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2060,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2060,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2060,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5654,7 +5654,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2061,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2061,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2061,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,2061,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (33,2061,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (39,2356,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5665,7 +5665,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2357,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2357,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2357,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2068,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2068,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2068,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5676,7 +5676,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2069,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2070,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2070,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2070,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2070,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2071,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5687,7 +5687,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2072,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2072,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2072,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2073,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2073,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2073,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5698,7 +5698,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2074,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2075,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2075,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2075,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2075,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2076,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5709,7 +5709,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2367,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2367,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2367,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2367,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (37,2367,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (38,2367,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
@@ -5720,7 +5720,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2079,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2080,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2080,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2080,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2080,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2082,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5731,7 +5731,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2083,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2083,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2083,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2084,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2084,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2084,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5742,7 +5742,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2085,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2086,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2086,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2086,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2086,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2088,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5753,7 +5753,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2090,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2090,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2090,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2378,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2378,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2378,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5764,7 +5764,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2378,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2378,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2378,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (43,2378,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2092,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2092,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5775,7 +5775,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (41,2093,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2093,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2094,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,2094,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2094,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2094,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5786,7 +5786,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2383,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2383,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2383,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2383,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2384,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2384,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5797,7 +5797,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (41,2102,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2102,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2103,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,2103,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2103,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2103,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5808,7 +5808,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2108,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2108,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2108,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2108,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2109,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2109,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5819,7 +5819,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (41,2110,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2110,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2111,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,2111,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2111,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2111,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5830,7 +5830,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2113,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2113,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2113,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2113,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2114,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2114,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5841,7 +5841,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (41,2115,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2115,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2116,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,2116,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2116,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2116,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5852,7 +5852,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2118,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2118,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2118,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2118,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2119,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2119,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5863,7 +5863,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (41,2120,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2120,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2121,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (40,2121,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2121,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2121,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5874,7 +5874,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2123,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2123,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2123,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2123,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2127,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2127,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5885,7 +5885,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,2127,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (39,2128,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2128,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2128,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2128,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2129,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5896,7 +5896,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2126,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2126,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2126,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2134,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2134,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2134,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5907,7 +5907,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2135,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2136,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2136,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2136,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2136,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2137,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5918,7 +5918,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2138,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2138,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2138,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2139,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2139,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2139,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5929,7 +5929,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2140,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2141,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2141,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2141,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2141,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2416,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5940,7 +5940,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2142,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2142,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2142,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2143,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2143,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2143,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5951,7 +5951,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2145,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2420,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2420,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2420,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2420,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2421,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5962,7 +5962,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2421,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2421,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2421,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2150,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2150,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2150,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5973,7 +5973,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2149,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2154,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2154,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2154,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2154,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2155,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5984,7 +5984,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2156,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2156,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2156,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2157,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2157,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2157,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -5995,7 +5995,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2158,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2433,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2433,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2433,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2433,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2434,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -6006,7 +6006,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2434,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (37,2434,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (38,2434,'2023-02-20 16:07:11',NULL,'dynamic stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2160,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2160,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2160,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -6017,7 +6017,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2161,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2163,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2163,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2163,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2163,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2164,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -6028,7 +6028,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2166,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2166,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2166,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2167,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2167,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2167,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -6039,7 +6039,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2168,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2443,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2443,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2443,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2443,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (34,2443,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
@@ -6050,7 +6050,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,2443,'2023-02-20 16:07:11',NULL,'dynamic stabilizer'),
 	 (39,2170,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2170,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2170,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2170,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2171,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -6061,7 +6061,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2172,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2172,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2172,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2173,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2173,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2173,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -6072,7 +6072,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2174,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2175,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2175,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (41,2175,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2175,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (39,2177,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -6083,7 +6083,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (40,2178,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2178,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (42,2178,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (39,2179,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (40,2179,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (41,2179,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -6094,7 +6094,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (42,2180,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (36,2467,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (37,2467,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2467,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (34,2467,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (32,2467,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
@@ -6105,7 +6105,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2468,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (32,2468,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (33,2468,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (69,2468,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (36,2469,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (37,2469,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -6116,7 +6116,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (73,2469,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (34,2469,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (32,2469,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,2469,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (69,2469,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (36,1922,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -6127,7 +6127,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2471,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (38,2471,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (34,2471,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,2471,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (33,2471,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (36,1924,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -6138,7 +6138,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2473,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (38,2473,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (34,2473,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,2473,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (33,2473,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (36,1934,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -6149,7 +6149,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2475,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (38,2475,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (34,2475,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,2475,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (33,2475,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (36,1937,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -6160,7 +6160,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2477,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (38,2477,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (34,2477,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,2477,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (33,2477,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (36,2478,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -6171,7 +6171,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (51,2478,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (71,2478,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (50,2478,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (73,2478,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (69,2478,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (36,2479,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -6182,7 +6182,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (59,2479,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (73,2479,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (69,2479,'2023-02-20 16:07:11',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2480,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (37,2480,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (38,2480,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -6193,7 +6193,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (69,2480,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (36,1939,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (37,1939,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,1939,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (35,1939,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2482,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -6204,7 +6204,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,2482,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (36,1940,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (37,1940,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,1940,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (35,1940,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (36,2484,'2023-02-20 16:07:11',NULL,'agonist'),
@@ -6215,7 +6215,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,2484,'2023-02-20 16:07:11',NULL,'antagonist stabilizer'),
 	 (36,2485,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (37,2485,'2023-02-20 16:07:11',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2485,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (43,2485,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2485,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -6226,7 +6226,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2488,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (38,2488,'2023-02-20 16:07:11',NULL,'agonist'),
 	 (43,2488,'2023-02-20 16:07:11',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (59,2488,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (51,2488,'2023-02-20 16:07:11',NULL,'synergist'),
 	 (73,2488,'2023-02-20 16:07:11',NULL,'synergist'),
@@ -6237,7 +6237,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2489,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (51,2489,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (59,2489,'2023-02-20 16:07:47',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (73,2489,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (69,2489,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,2491,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6248,7 +6248,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (59,2491,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (73,2491,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (69,2491,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2492,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2492,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2492,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6259,7 +6259,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (69,2492,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,2493,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2493,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2493,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (43,2493,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (59,2493,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6270,7 +6270,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,1944,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,1944,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (35,1944,'2023-02-20 16:07:47',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2495,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2495,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2495,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6281,7 +6281,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2496,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2496,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (43,2496,'2023-02-20 16:07:47',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (51,2496,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (59,2496,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (69,2496,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
@@ -6292,7 +6292,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (51,2497,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (59,2497,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (69,2497,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2498,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2498,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2498,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6303,7 +6303,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (69,2498,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,2499,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2499,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2499,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (43,2499,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (51,2499,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6314,7 +6314,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2500,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2500,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (43,2500,'2023-02-20 16:07:47',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (51,2500,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (59,2500,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (73,2500,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6325,7 +6325,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2501,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (59,2501,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (51,2501,'2023-02-20 16:07:47',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (73,2501,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (69,2501,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,2502,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6336,7 +6336,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (51,2502,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (73,2502,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (69,2502,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2503,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2503,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2503,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6347,7 +6347,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2504,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2504,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2504,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (43,2504,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (51,2504,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (59,2504,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6358,7 +6358,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2505,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (59,2505,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (51,2505,'2023-02-20 16:07:47',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (73,2505,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (69,2505,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,2506,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6369,7 +6369,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (51,2506,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (73,2506,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (69,2506,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2507,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2507,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2507,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6380,7 +6380,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2508,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2508,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (34,2508,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,2508,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (33,2508,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,1953,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6391,7 +6391,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2510,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2510,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (34,2510,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,2510,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (33,2510,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,2511,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6402,7 +6402,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,2511,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (69,2511,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,2512,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,2512,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2512,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (43,2512,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6413,7 +6413,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,2512,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (33,2512,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (69,2512,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,1954,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,1954,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,1954,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6424,7 +6424,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2514,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (32,2514,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (33,2514,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,1957,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,1957,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,1957,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6435,7 +6435,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2516,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (32,2516,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (33,2516,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2518,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2518,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2518,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6446,7 +6446,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2518,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (32,2518,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (33,2518,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (69,2518,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,2519,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2519,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6457,7 +6457,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (69,2519,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,2520,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2520,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2520,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (34,2520,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (32,2520,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
@@ -6468,7 +6468,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,2521,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (34,2521,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (32,2521,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,2521,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (35,2522,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (36,2522,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6479,7 +6479,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (13,2522,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (14,2522,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (15,2522,'2023-02-20 16:07:47',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (4,2522,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (36,2523,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2523,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6490,7 +6490,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,2523,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,2524,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2524,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2524,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (69,2524,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (34,2524,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
@@ -6501,7 +6501,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,2525,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (43,2525,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (51,2525,'2023-02-20 16:07:47',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (59,2525,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (73,2525,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (69,2525,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
@@ -6512,7 +6512,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (37,2526,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2526,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (43,2526,'2023-02-20 16:07:47',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (51,2526,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (59,2526,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (73,2526,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6523,7 +6523,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2527,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2527,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2527,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (43,2527,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (59,2527,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (51,2527,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6534,7 +6534,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (69,2527,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,2528,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2528,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2528,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (43,2528,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (51,2528,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6545,7 +6545,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (32,2528,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (33,2528,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,2529,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,2529,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2529,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (43,2529,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6556,7 +6556,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2529,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (32,2529,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (33,2529,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2530,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2530,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2530,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6567,7 +6567,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (69,2530,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (34,2530,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (32,2530,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,2530,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,2531,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2531,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6578,7 +6578,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (38,2532,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (43,2532,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (59,2532,'2023-02-20 16:07:47',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (51,2532,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (73,2532,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (19,2532,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6589,7 +6589,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (25,2532,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (34,2532,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (32,2532,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,2532,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (69,2532,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,2533,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6600,7 +6600,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (51,2533,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (73,2533,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (16,2533,'2023-02-20 16:07:47',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (17,2533,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (18,2533,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (23,2533,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6611,7 +6611,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,2533,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (69,2533,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,2534,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (37,2534,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2534,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (43,2534,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6622,7 +6622,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (34,2534,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (32,2534,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (33,2534,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (36,2535,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2535,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2535,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6633,7 +6633,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (69,2535,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (34,2535,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (32,2535,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (33,2535,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,2536,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2536,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6644,7 +6644,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (73,2536,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (69,2536,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (34,2536,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (32,2536,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (33,2536,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,2537,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6655,7 +6655,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (59,2537,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (73,2537,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (69,2537,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (34,2537,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (32,2537,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (33,2537,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
@@ -6666,7 +6666,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (36,2539,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2539,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (38,2539,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (43,2539,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (51,2539,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (59,2539,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6677,7 +6677,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (33,2539,'2023-02-20 16:07:47',NULL,'antagonist stabilizer'),
 	 (36,2540,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (37,2540,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (38,2540,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (43,2540,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (51,2540,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6688,7 +6688,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (63,2559,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (59,2559,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (63,2560,'2023-02-20 16:07:47',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (59,2560,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (63,2561,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (59,2561,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6699,7 +6699,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (63,2564,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (59,2564,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (63,2565,'2023-02-20 16:07:47',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (59,2565,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2592,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2592,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6710,7 +6710,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2595,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2595,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2596,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2596,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2597,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2597,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6721,7 +6721,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2600,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2600,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2601,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2601,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2602,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2602,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6732,7 +6732,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2605,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2605,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2606,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2606,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2607,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2607,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6743,7 +6743,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2610,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2610,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2611,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2611,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2612,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2612,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6754,7 +6754,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2615,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2615,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2616,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2616,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2617,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2617,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6765,7 +6765,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2620,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2620,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2621,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2621,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2622,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2622,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6776,7 +6776,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2625,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2625,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2626,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2626,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2627,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2627,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6787,7 +6787,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2630,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2630,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2631,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2631,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2632,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2632,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6798,7 +6798,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2635,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2635,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2636,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2636,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2637,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2637,'2023-02-20 16:07:47',NULL,'synergist'),
@@ -6809,7 +6809,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (43,2638,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (44,2638,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (35,2638,'2023-02-20 16:07:47',NULL,'antagonist stabilizer');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (44,2646,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (43,2646,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (44,2647,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6820,7 +6820,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (39,2649,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (40,2649,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (41,2649,'2023-02-20 16:07:47',NULL,'synergist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (42,2649,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (43,2649,'2023-02-20 16:07:47',NULL,'dynamic stabilizer'),
 	 (36,2649,'2023-02-20 16:07:47',NULL,'dynamic stabilizer'),
@@ -6831,7 +6831,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (44,2651,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (43,2651,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (44,2652,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (43,2652,'2023-02-20 16:07:47',NULL,'synergist'),
 	 (69,2662,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (69,2663,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6842,7 +6842,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (69,2668,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (69,2669,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (69,2670,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (69,2671,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (69,2672,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (69,2673,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6853,7 +6853,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (69,2678,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (69,2679,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (69,2680,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (69,2681,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (69,2682,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (69,2683,'2023-02-20 16:07:47',NULL,'agonist'),
@@ -6864,7 +6864,7 @@ INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`r
 	 (69,2688,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (69,2689,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (69,2690,'2023-02-20 16:07:47',NULL,'agonist');
-INSERT INTO exercise_musclePortion (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
+INSERT INTO exercise_muscle_portions (muscle_id,exercise_id,createdAt,updatedAt,`role`) VALUES
 	 (69,2691,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (69,2692,'2023-02-20 16:07:47',NULL,'agonist'),
 	 (69,2693,'2023-02-20 16:07:47',NULL,'agonist'),

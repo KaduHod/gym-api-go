@@ -5,7 +5,7 @@ import (
 )
 
 type Muscle struct {
-	Id        int             `json:"id"        gorm:"primary_key -all"`
+	Id        int             `json:"id"        gorm:"primaryKey;autoIncrement;"`
 	Name      string          `json:"name"`
 	Image     string          `json:"image"`
 	Portions  []MusclePortion `json:"portions" gorm:"foreignKey:MuscleId"`
@@ -14,13 +14,13 @@ type Muscle struct {
 }
 
 type MusclePortion struct {
-	Id        int        `json:"id"        gorm:"primary_key -all"`
-	Name      string     `json:"name"`
-	Image     string     `json:"image"`
-	MuscleId  int        `json:"muscleGroup_id" gorm:"column:muscleGroup_id;"`
-	Exercises []Exercise `json:"exercises" gorm:"many2many:exercise_musclePortion;ForeignKey:Id;joinForeignKey:muscle_id;"`
-	CreatedAt time.Time  `json:"createdAt" gorm:"column:createdAt;autoCreateTime"`
-	UpdatedAt time.Time  `json:"updatedAt" gorm:"column:updatedAt;autoUpdateTime"`
+	Id       int    `json:"id"        gorm:"primaryKey;autoIncrement;"`
+	Name     string `json:"name"`
+	Image    string `json:"image"`
+	MuscleId int    `json:"muscleGroup_id" gorm:"column:muscleGroup_id;"`
+	// Exercises []Exercise `json:"exercises" gorm:"many2many:exercise_muscle_portions;foreignKey:Id;joinForeignKey:MusclePortionId;References:Id"`
+	CreatedAt time.Time `json:"createdAt" gorm:"column:created_at;autoCreateTime"`
+	UpdatedAt time.Time `json:"updatedAt" gorm:"column:updated_at;autoUpdateTime"`
 }
 
 type ExerciseMuscle struct {
@@ -31,5 +31,5 @@ type Tabler interface {
 }
 
 func (MusclePortion) TableName() string {
-	return "musclePortion"
+	return "muscle_portion"
 }

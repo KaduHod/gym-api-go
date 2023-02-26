@@ -17,19 +17,42 @@ func NewExercicioRepository(Db *gorm.DB) ExercicioRepository {
 	return ExercicioRepository{Db}
 }
 
+func (r *ExercicioRepository) FindById(id int) *models.Exercise {
+	var exercise models.Exercise
+	exercise.Id = id
+	query := r.Db.Model(exercise)
+	query.Find(&exercise)
+	return &exercise
+}
+
+func (r *ExercicioRepository) FindByIdWithMuscles(id int, muscle bool, muscleRole bool) *models.Exercise {
+	var exercise models.Exercise
+	exercise.Id = id
+	query := r.Db.Model(exercise)
+	if muscleRole {
+		query.Preload("ExerciseMusclePortion", func(db *gorm.DB) *gorm.DB {
+			return db.Preload("MusclePortion")
+		})
+	}
+
+	if muscle {
+		query.Preload("MusclePortions")
+	}
+	query.Find(&exercise)
+	return &exercise
+}
+
 func (r *ExercicioRepository) FindByMuscleId(muscleId int) *[]models.Exercise {
 	var exercises *[]models.Exercise
-	query := r.Db.Table("exercicios")
-	query.Preload("MusclePortions", func(db *gorm.DB) *gorm.DB {
-		return db.Table("exercicios").Where("exercise_musclePortion.exercise_id = ?", muscleId)
-	})
+	query := r.Db
+	query.Preload("MusclePortions")
 	query.Find(&exercises)
 	return exercises
 }
 
 func (r *ExercicioRepository) FindAll(params url.Values) *[]models.Exercise {
 	var exercicios []models.Exercise
-	query := r.Db.Table("exercicios").Select([]string{"exercicios.*"})
+	query := r.Db
 
 	if params != nil {
 		for key, value := range params {
