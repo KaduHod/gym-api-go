@@ -21,7 +21,7 @@ func (r *MusclesGroupsRepository) FindByNameWithPortionAndExercises(muscleName s
 	var muscle models.Muscle
 	r.Db.Preload("Portions", func(db *gorm.DB) *gorm.DB {
 		return db.Preload("Exercises")
-	}).Find(&muscle)
+	}).Where("name like ?", "%"+muscleName+"%").Limit(1).Find(&muscle)
 	return &muscle
 }
 

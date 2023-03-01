@@ -20,14 +20,6 @@ func (s *ListMusclesGroupPortionService) Main() (*models.Muscle, error) {
 		return muscle, errors.New("Muscle group not find")
 	}
 
-	// portions, erro := s.getMuscleGroupPortions()
-	//
-	// if erro != nil {
-	// return muscle, errors.New("Error searching for portions")
-	// }
-	//
-	// muscle.Portions = portions
-
 	return muscle, nil
 }
 

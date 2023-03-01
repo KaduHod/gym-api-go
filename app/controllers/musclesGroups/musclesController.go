@@ -4,6 +4,7 @@ import (
 	"api/app/config"
 	"api/app/repository"
 	service "api/app/services/muscles"
+	"fmt"
 	"strconv"
 
 	"github.com/gin-gonic/gin"
@@ -33,9 +34,7 @@ func ListPortions(c *gin.Context) {
 	muscleGroupId := c.Param("id")
 	groupIdInt, erro := strconv.Atoi(muscleGroupId)
 	if erro != nil {
-		c.JSON(400, gin.H{
-			"muscles": erro,
-		})
+		c.String(400, "Invalid Id!")
 		c.Abort()
 		return
 	}
@@ -51,7 +50,7 @@ func ListPortions(c *gin.Context) {
 	muscles, erro := listMusclesPortionService.Main()
 
 	if erro != nil {
-		c.String(400, "Muscle group not find")
+		c.String(400, fmt.Sprint(erro))
 		c.Abort()
 		return
 	}
@@ -71,7 +70,21 @@ func Exercises(c *gin.Context) {
 		MuscleGroupName:       muscleGroupName,
 	}
 
+	muscle, err := service.Main()
+	if err != nil {
+		if fmt.Sprint(err) == "Muscle not found" {
+			c.String(404, fmt.Sprint(err))
+			c.Abort()
+			return
+		} else {
+			c.AbortWithStatus(500)
+			c.Abort()
+		}
+		return
+	}
+
 	c.JSON(200, gin.H{
-		"muscles": service.Main(),
+		"muscles": muscle,
 	})
+
 }
