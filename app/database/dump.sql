@@ -586,9 +586,9 @@ CREATE TABLE `exercise_muscle_portions` (
   `updatedAt` datetime DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
   `role` enum('agonist','synergist','stabilizer','antagonist stabilizer','dynamic stabilizer') DEFAULT NULL,
   PRIMARY KEY (`id`),
-  KEY `exercise_exercise_muscle_portions_id_foreign` (`muscle_id`),
+  KEY `exercise_exercise_muscle_portions_id_foreign` (`muscle_portion_id`),
   KEY `exercise_muscle_portions_exercise_id_foreign` (`exercise_id`),
-  CONSTRAINT `exercise_exercise_muscle_portions_id_foreign` FOREIGN KEY (`muscle_id`) REFERENCES ` muscle_portion` (`id`) ON DELETE CASCADE,
+  CONSTRAINT `exercise_exercise_muscle_portions_id_foreign` FOREIGN KEY (`muscle_portion_id`) REFERENCES ` muscle_portion` (`id`) ON DELETE CASCADE,
   CONSTRAINT `exercise_muscle_portions_exercise_id_foreign` FOREIGN KEY (`exercise_id`) REFERENCES `exercicios` (`id`) ON DELETE CASCADE
 ) ENGINE=InnoDB AUTO_INCREMENT=19590 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 

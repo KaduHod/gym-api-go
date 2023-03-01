@@ -19,11 +19,7 @@ func NewMusclePortionRepository(Db *gorm.DB) MusclesPortionRepository {
 func (r *MusclesPortionRepository) FindWithExercises(portionId int) *models.MusclePortion {
 	var muscle models.MusclePortion
 	muscle.Id = portionId
-	r.Db.Preload("Muscle", func(db *gorm.DB) *gorm.DB {
-		return db.Select("id", "name", "image")
-	}).Preload("Exercises", func(db *gorm.DB) *gorm.DB {
-		return db.Select("id", "name", "force", "execution", "mechanic")
-	}).Find(&muscle)
+	r.Db.Preload("Muscle").Preload("Exercises").Find(&muscle)
 	return &muscle
 }
 

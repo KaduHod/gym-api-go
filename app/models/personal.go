@@ -3,14 +3,14 @@ package models
 import "time"
 
 type Personal struct {
-	Id        int       `json:"omitempty,id"        gorm:"primary_key -all"`
-	Name      string    `json:"omitempty,name"      gorm:"-all"`
-	Nickname  string    `json:"omitempty,nickname"  gorm:"-all"`
-	Email     string    `json:"omitempty,email"     gorm:"-all"`
-	Password  string    `json:"omitempty,password"  gorm:"-all"`
-	Cellphone string    `json:"omitempty,cellphone" gorm:"-all"`
-	CreatedAt time.Time `json:"omitempty,createdAt" gorm:"column:createdAt;autoCreateTime"`
-	UpdatedAt time.Time `json:"omitempty,updatedAt" gorm:"column:updatedAt;autoUpdateTime"`
+	Id        int       `json:"id,omitempty"        gorm:"primary_key -all"`
+	Name      string    `json:"name,omitempty"      gorm:"-all"`
+	Nickname  string    `json:"nickname,omitempty"  gorm:"-all"`
+	Email     string    `json:"email,omitempty"     gorm:"-all"`
+	Password  string    `json:"password,omitempty"  gorm:"-all"`
+	Cellphone string    `json:"cellphone,omitempty" gorm:"-all"`
+	CreatedAt time.Time `json:"createdAt,omitempty" gorm:"column:createdAt;autoCreateTime"`
+	UpdatedAt time.Time `json:"updatedAt,omitempty" gorm:"column:updatedAt;autoUpdateTime"`
 }
 
 func (u Personal) GetId() int {
