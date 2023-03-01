@@ -5,14 +5,14 @@ import (
 )
 
 type User struct {
-	Id        int       `json:"id"        gorm:"primary_key -all"`
-	Name      string    `json:"name"      gorm:"-all"`
-	Nickname  string    `json:"nickname"  gorm:"-all"`
-	Email     string    `json:"email"     gorm:"-all"`
-	Password  string    `json:"password"  gorm:"-all"`
-	Cellphone string    `json:"cellphone" gorm:"-all"`
-	CreatedAt time.Time `json:"createdAt" gorm:"column:createdAt;autoCreateTime"`
-	UpdatedAt time.Time `json:"updatedAt" gorm:"column:updatedAt;autoUpdateTime"`
+	Id        int       `json:"omitempty,id"        gorm:"primary_key -all"`
+	Name      string    `json:"omitempty,name"      gorm:"-all"`
+	Nickname  string    `json:"omitempty,nickname"  gorm:"-all"`
+	Email     string    `json:"omitempty,email"     gorm:"-all"`
+	Password  string    `json:"omitempty,password"  gorm:"-all"`
+	Cellphone string    `json:"omitempty,cellphone" gorm:"-all"`
+	CreatedAt time.Time `json:"omitempty,createdAt" gorm:"column:createdAt;autoCreateTime"`
+	UpdatedAt time.Time `json:"omitempty,updatedAt" gorm:"column:updatedAt;autoUpdateTime"`
 }
 
 type UserTypes interface {

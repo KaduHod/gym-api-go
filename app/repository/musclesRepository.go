@@ -29,6 +29,8 @@ func (r *MusclesGroupsRepository) FindAll(params map[string][]string) *[]models.
 	var muscles []models.Muscle
 	query := r.Db.Table("muscleGroup")
 
+	fmt.Println(params)
+
 	if params != nil {
 		for key, value := range params {
 			if key != "portions" {
@@ -51,9 +53,9 @@ func (r *MusclesGroupsRepository) FindAll(params map[string][]string) *[]models.
 
 func (r *MusclesGroupsRepository) FindAllWithPortions(params map[string][]string) *[]models.Muscle {
 	var muscles []models.Muscle
-	query := r.Db.Table("muscleGroup")
+	query := r.Db
 
-	fmt.Println(params)
+	fmt.Println(params != nil)
 
 	if params != nil {
 		for key, value := range params {

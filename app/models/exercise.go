@@ -3,27 +3,27 @@ package models
 import "time"
 
 type Exercise struct {
-	Id                    int                     `json:"id"        gorm:"primaryKey;autoIncrement;"`
-	Name                  string                  `json:"name"`
-	Force                 string                  `json:"force"`
-	Execution             string                  `json:"execution"`
-	Mechanic              string                  `json:"mechanic"`
-	MusclePortions        []MusclePortion         `json:"muscles" gorm:"many2many:exercise_muscle_portions;foreignKey:Id;joinForeignKey:ExerciseId;References:Id;"`
-	ExerciseMusclePortion []ExerciseMusclePortion `json:"musclesAndRoles"`
-	Link                  string                  `json:"link"`
-	CreatedAt             time.Time               `json:"createdAt" gorm:"column:createdAt;autoCreateTime"`
-	UpdatedAt             time.Time               `json:"updatedAt" gorm:"column:updatedAt;autoUpdateTime"`
+	Id                    int                     `json:"omitempty,id"        gorm:"primaryKey;autoIncrement;"`
+	Name                  string                  `json:"omitempty,name"`
+	Force                 string                  `json:"omitempty,force"`
+	Execution             string                  `json:"omitempty,execution"`
+	Mechanic              string                  `json:"omitempty,mechanic"`
+	MusclePortions        []MusclePortion         `json:"omitempty,muscles" gorm:"many2many:exercise_muscle_portions;foreignKey:Id;joinForeignKey:ExerciseId;References:Id;"`
+	ExerciseMusclePortion []ExerciseMusclePortion `json:"omitempty,musclesAndRoles"`
+	Link                  string                  `json:"omitempty,link"`
+	CreatedAt             time.Time               `json:"omitempty,createdAt" gorm:"column:createdAt;autoCreateTime"`
+	UpdatedAt             time.Time               `json:"omitempty,updatedAt" gorm:"column:updatedAt;autoUpdateTime"`
 }
 
 type ExerciseMusclePortion struct {
-	Id              int           `json:"-"        gorm:"primaryKey;autoIncrement;"`
-	ExerciseId      int           `json:"-"`
-	Exercise        Exercise      `json:"-"`
-	MusclePortionId int           `json:"-" gorm:"column:muscle_id"`
-	MusclePortion   MusclePortion `json:"muscle"`
-	Role            string        `json:"role"`
-	CreatedAt       time.Time     `json:"-" gorm:"column:createdAt;autoCreateTime"`
-	UpdatedAt       time.Time     `json:"-" gorm:"column:updatedAt;autoUpdateTime"`
+	Id              int           `json:"omitempty,-"        gorm:"primaryKey;autoIncrement;"`
+	ExerciseId      int           `json:"omitempty,-"`
+	Exercise        Exercise      `json:"omitempty,-"`
+	MusclePortionId int           `json:"omitempty,-" gorm:"column:muscle_id"`
+	MusclePortion   MusclePortion `json:"omitempty,muscle"`
+	Role            string        `json:"omitempty,role"`
+	CreatedAt       time.Time     `json:"omitempty,-" gorm:"column:createdAt;autoCreateTime"`
+	UpdatedAt       time.Time     `json:"omitempty,-" gorm:"column:updatedAt;autoUpdateTime"`
 }
 
 func (Exercise) TableName() string {
