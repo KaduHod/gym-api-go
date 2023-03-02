@@ -10,6 +10,7 @@ import (
 )
 
 func CreateUserMiddleware[T models.UserType](c *gin.Context) {
+
 	var userParams T
 	var errorsArr []string
 	requests.GetBodyJson(c.Request.Body, &userParams)
@@ -22,6 +23,7 @@ func CreateUserMiddleware[T models.UserType](c *gin.Context) {
 		})
 		c.Abort()
 	}
+
 	c.Set("UserParams", userParams)
 	c.Next()
 }

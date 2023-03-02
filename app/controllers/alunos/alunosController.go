@@ -24,7 +24,7 @@ func All(c *gin.Context) {
 }
 
 func Create(c *gin.Context) {
-	aluno := c.MustGet("UserParams").(models.User)
+	aluno := c.MustGet("UserParams").(models.Aluno)
 	db := config.DatabaseConnection()
 	alunoRepository := repository.NewAlunosRepository(db)
 	permissionRepository := repository.NewPermissionRepository(db)

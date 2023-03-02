@@ -9,7 +9,7 @@ import (
 type CreateAlunoService struct {
 	AlunoRepository      *repository.AlunosRepository
 	PermissionRepository *repository.PermissionRepository
-	Aluno                *models.User
+	Aluno                *models.Aluno
 }
 
 func (s *CreateAlunoService) Main() error {

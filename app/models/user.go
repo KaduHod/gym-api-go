@@ -1,6 +1,7 @@
 package models
 
 import (
+	"encoding/json"
 	"time"
 )
 
@@ -57,4 +58,9 @@ func (u User) GetCreatedAt() time.Time {
 }
 func (u User) GetUpdatedAt() time.Time {
 	return u.UpdatedAt
+}
+
+func FactoryUserJson[T UserType](jsonString string) {
+	var user *T
+	json.Unmarshal([]byte(jsonString), user)
 }

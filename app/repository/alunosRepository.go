@@ -48,7 +48,7 @@ func (r *AlunosRepository) Update(alunoParams *models.Aluno) {
 	r.Db.Table("users").Omit("id").Model(&alunoParams).Where("users.id = ?", alunoParams.Id).Updates(alunoParams)
 }
 
-func (r *AlunosRepository) Create(aluno *models.User) error {
+func (r *AlunosRepository) Create(aluno *models.Aluno) error {
 	result := r.Db.Create(&aluno)
 	if result.Error != nil {
 		err := result.Error.(*mysql.MySQLError)
@@ -60,4 +60,18 @@ func (r *AlunosRepository) Create(aluno *models.User) error {
 	}
 	apiErrors.Check(result.Error)
 	return nil
+}
+
+func (r *AlunosRepository) FindFirstBy(params map[string]string) *models.Aluno {
+	var aluno *models.Aluno
+	query := r.Db
+	for key, value := range params {
+		query.Where(key+" = ?", value)
+	}
+	query.First(aluno)
+	return aluno
+}
+
+func (r *AlunosRepository) DeleteAluno(aluno *models.Aluno) {
+
 }
