@@ -46,5 +46,18 @@ func TestCreateValidAluno(t *testing.T) {
 }
 
 func TestCreateInvalidAluno(t *testing.T) {
+	requestBody := strings.NewReader(`
+	{
+	"nickname": "testeInvalid",
+	"email": "testeInvalid",
+	"password":"testeInvalid",
+	"cellphone":"1112223333"
+	}`)
+	alunoUrl := "http://localhost:3000/alunos"
+	res, _ := requests.JsonPostRequest(alunoUrl, requestBody)
+
+	if res.StatusCode != 400 {
+		t.Error("Criouse aluno quando não deveria")
+	}
 
 }

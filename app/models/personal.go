@@ -40,3 +40,7 @@ func (u Personal) GetCreatedAt() time.Time {
 func (u Personal) GetUpdatedAt() time.Time {
 	return u.UpdatedAt
 }
+
+func (u Personal) TableName() string {
+	return "users"
+}

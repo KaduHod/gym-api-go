@@ -3,6 +3,7 @@ package repository
 import (
 	apiErrors "api/app/helpers/errors"
 	databaseErrors "api/app/helpers/errors/database"
+	integersHelper "api/app/helpers/integers"
 	"api/app/models"
 	"errors"
 	"net/url"
@@ -51,7 +52,7 @@ func (r *PersonalRepository) Update(personalParams *models.Personal) {
 
 func (r *PersonalRepository) FindAll(params url.Values) []models.Personal {
 	var personais []models.Personal
-	query := r.Db.Table("users").Select([]string{"users.*"}).Joins("JOIN users_permissions on users.id = users_permissions.user_id").Where("users_permissions.permission_id =?", 2)
+	query := r.Db.Select([]string{"users.*"}).Joins("JOIN users_permissions on users.id = users_permissions.user_id").Where("users_permissions.permission_id =?", PermissionTypes["Personal"])
 
 	if params != nil {
 		for key, value := range params {
@@ -63,4 +64,24 @@ func (r *PersonalRepository) FindAll(params url.Values) []models.Personal {
 	result := query.Find(&personais)
 	apiErrors.CheckPanic(result.Error)
 	return personais
+}
+
+func (r *PersonalRepository) FindFirstBy(params map[string]interface{}) *models.Personal {
+	var personais models.Personal
+	query := r.Db.Select([]string{"users.*"}).Joins("JOIN users_permissions on users.id = users_permissions.user_id").Where("users_permissions.permission_id =?", PermissionTypes["Personal"])
+
+	if params != nil {
+		query.Where(params)
+	}
+
+	result := query.Find(&personais)
+	apiErrors.CheckPanic(result.Error)
+	return &personais
+}
+
+func (r *PersonalRepository) DeletePersonal(personal *models.Personal) {
+	var deletePermissionResult any
+	r.Db.Raw("delete from users_permissions where user_id = " + integersHelper.ToString(personal.Id)).Scan(deletePermissionResult)
+	var deletePersonalResult any
+	r.Db.Delete(personal).Scan(deletePersonalResult)
 }
