@@ -6,14 +6,15 @@ import (
 )
 
 type User struct {
-	Id        int       `json:"id,omitempty"        gorm:"primary_key -all"`
-	Name      string    `json:"name,omitempty"      gorm:"-all"`
-	Nickname  string    `json:"nickname,omitempty"  gorm:"-all"`
-	Email     string    `json:"email,omitempty"     gorm:"-all"`
-	Password  string    `json:"password,omitempty"  gorm:"-all"`
-	Cellphone string    `json:"cellphone,omitempty" gorm:"-all"`
-	CreatedAt time.Time `json:"createdAt,omitempty" gorm:"column:createdAt;autoCreateTime"`
-	UpdatedAt time.Time `json:"updatedAt,omitempty" gorm:"column:updatedAt;autoUpdateTime"`
+	Id         int              `json:"id,omitempty"        gorm:"primary_key -all"`
+	Name       string           `json:"name,omitempty"      gorm:"-all"`
+	Nickname   string           `json:"nickname,omitempty"  gorm:"-all"`
+	Email      string           `json:"email,omitempty"     gorm:"-all"`
+	Password   string           `json:"password,omitempty"  gorm:"-all"`
+	Cellphone  string           `json:"cellphone,omitempty" gorm:"-all"`
+	Permission UsersPermissions `json:"permission"`
+	CreatedAt  time.Time        `json:"createdAt,omitempty" gorm:"column:createdAt;autoCreateTime"`
+	UpdatedAt  time.Time        `json:"updatedAt,omitempty" gorm:"column:updatedAt;autoUpdateTime"`
 }
 
 type UserTypes interface {

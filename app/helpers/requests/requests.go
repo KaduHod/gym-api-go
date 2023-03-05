@@ -63,6 +63,7 @@ func GetBodyFromRequest(body io.ReadCloser) string {
 
 func JsonPostRequest(url string, body *strings.Reader) (*http.Response, string) {
 	client, err := http.NewRequest(http.MethodPost, url, body)
+
 	if err != nil {
 		panic(err)
 	}
@@ -75,4 +76,17 @@ func JsonPostRequest(url string, body *strings.Reader) (*http.Response, string) 
 	}
 
 	return res, GetBodyFromRequest(res.Body)
+}
+
+func GetRequest(url string) *http.Response {
+	client, err := http.NewRequest(http.MethodGet, url, nil)
+	if err != nil {
+		panic(err)
+	}
+	res, err := http.DefaultClient.Do(client)
+	if err != nil {
+		panic(err)
+	}
+	return res
+
 }

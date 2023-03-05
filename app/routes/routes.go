@@ -21,6 +21,8 @@ func Init(router *gin.Engine) {
 }
 
 func newFunction(router *gin.Engine) {
+
+	router.GET("/TEST", alunos.Test)
 	groupAlunos := router.Group("/alunos")
 	groupAlunos.GET("/", alunos.All)
 	groupAlunos.POST("/", validate.CreateUserMiddleware[models.Aluno], alunos.Create)

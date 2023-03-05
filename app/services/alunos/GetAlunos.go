@@ -11,6 +11,6 @@ type ListAlunosService struct {
 	Params          url.Values
 }
 
-func (s *ListAlunosService) Main() *[]models.User {
+func (s *ListAlunosService) Main() *[]models.Aluno {
 	return s.AlunoRepository.FindAll(s.Params)
 }

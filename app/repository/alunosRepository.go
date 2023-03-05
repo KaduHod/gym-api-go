@@ -3,6 +3,7 @@ package repository
 import (
 	apiErrors "api/app/helpers/errors"
 	databaseErrors "api/app/helpers/errors/database"
+	integersHelper "api/app/helpers/integers"
 	"api/app/models"
 	"errors"
 
@@ -18,9 +19,9 @@ func NewAlunosRepository(Db *gorm.DB) AlunosRepository {
 	return AlunosRepository{Db: Db}
 }
 
-func (r *AlunosRepository) FindAll(params map[string][]string) *[]models.User {
-	var alunos []models.User
-	query := r.Db.Table("users").Select([]string{"users.*"}).Joins("JOIN users_permissions on users.id = users_permissions.user_id").Where("users_permissions.permission_id =?", 1)
+func (r *AlunosRepository) FindAll(params map[string][]string) *[]models.Aluno {
+	var alunos []models.Aluno
+	query := r.Db.Select([]string{"users.*"}).Joins("JOIN users_permissions on users.id = users_permissions.user_id").Where("users_permissions.permission_id =?", 1)
 
 	if params != nil {
 		for key, value := range params {
@@ -39,7 +40,7 @@ func (r *AlunosRepository) First(id int, aluno *models.Aluno) error {
 	apiErrors.Check(result.Error)
 
 	if aluno.Id == 0 {
-		return errors.New("Personal not found!")
+		return errors.New("Aluno not found!")
 	}
 	return nil
 }
@@ -62,16 +63,22 @@ func (r *AlunosRepository) Create(aluno *models.Aluno) error {
 	return nil
 }
 
-func (r *AlunosRepository) FindFirstBy(params map[string]string) *models.Aluno {
-	var aluno *models.Aluno
-	query := r.Db
-	for key, value := range params {
-		query.Where(key+" = ?", value)
+func (r *AlunosRepository) FindFirstBy(params map[string]interface{}) *models.Aluno {
+	var alunos models.Aluno
+	query := r.Db.Select([]string{"users.*"}).Joins("JOIN users_permissions on users.id = users_permissions.user_id").Where("users_permissions.permission_id =?", 1)
+
+	if params != nil {
+		query.Where(params)
 	}
-	query.First(aluno)
-	return aluno
+
+	result := query.Find(&alunos)
+	apiErrors.CheckPanic(result.Error)
+	return &alunos
 }
 
 func (r *AlunosRepository) DeleteAluno(aluno *models.Aluno) {
-
+	var deletePermissionResult any
+	r.Db.Raw("delete from users_permissions where user_id = " + integersHelper.ToString(aluno.Id)).Scan(deletePermissionResult)
+	var deleteAlunoResult any
+	r.Db.Delete(aluno).Scan(deleteAlunoResult)
 }
