@@ -47,7 +47,7 @@ func (r *PersonalRepository) First(id int, personal *models.Personal) error {
 }
 
 func (r *PersonalRepository) Update(personalParams *models.Personal) {
-	r.Db.Table("users").Model(&personalParams).Omit("id").Where("users.id = ?", personalParams.Id).Updates(personalParams)
+	r.Db.Table("users").Model(&personalParams).Omit("id").Updates(personalParams)
 }
 
 func (r *PersonalRepository) FindAll(params url.Values) []models.Personal {

@@ -107,3 +107,15 @@ func GetRequest(url string) *http.Response {
 	return res
 
 }
+
+func GetRequestWithJsonBody(url string) (*http.Response, string) {
+	client, err := http.NewRequest(http.MethodGet, url, nil)
+	if err != nil {
+		panic(err)
+	}
+	res, err := http.DefaultClient.Do(client)
+	if err != nil {
+		panic(err)
+	}
+	return res, GetBodyFromRequest(res.Body)
+}

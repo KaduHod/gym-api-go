@@ -19,9 +19,7 @@ func All(c *gin.Context) {
 		Params:             c.Request.URL.Query(),
 	}
 
-	c.JSON(200, gin.H{
-		"personais": listPersonaisService.Main(),
-	})
+	c.JSON(200, listPersonaisService.Main())
 }
 
 func Update(c *gin.Context) {

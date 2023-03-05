@@ -61,7 +61,18 @@ func (u User) GetUpdatedAt() time.Time {
 	return u.UpdatedAt
 }
 
-func FactoryUserJson[T UserType](jsonString string) {
-	var user *T
-	json.Unmarshal([]byte(jsonString), user)
+func JsonToUser[T UserType](jsonString string) *T {
+	var user T
+	json.Unmarshal([]byte(jsonString), &user)
+	return &user
+}
+
+func JsonToUsers[T UserType](jsonString string) []*T {
+	var users []*T
+
+	if err := json.Unmarshal([]byte(jsonString), &users); err != nil {
+		panic(err)
+	}
+
+	return users
 }
