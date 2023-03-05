@@ -28,7 +28,7 @@ func TestCreateValidPersonal(t *testing.T) {
 	{
 	"name":"TesteGolangPersonalService",
 	"nickname": "TesteGolangPersonalService",
-	"email":` + email + `,
+	"email": "TesteGolangPersonalService@mail.com",
 	"password":"TesteGolangPersonalService",
 	"cellphone":"1112223333"
 	}`)
@@ -37,6 +37,7 @@ func TestCreateValidPersonal(t *testing.T) {
 
 	if res.StatusCode == 400 {
 		t.Error("Status 400, erro de validação com usuário valido")
+		return
 	}
 
 	if res.StatusCode != 201 {
@@ -45,13 +46,13 @@ func TestCreateValidPersonal(t *testing.T) {
 
 }
 
-/*func TestCreateInvalidPersonal(t *testing.T) {
+func TestCreateInvalidPersonal(t *testing.T) {
 	requestBody := strings.NewReader(`
 	{
 	"nickname": "testeInvalid",
 	"email": "testeInvalid",
 	"password":"testeInvalid",
-	"cellphone":"1112223333"
+	"cellphone": 1112223333
 	}`)
 	alunoUrl := "http://localhost:3000/personais"
 	res, _ := requests.JsonPostRequest(alunoUrl, requestBody)
@@ -60,4 +61,4 @@ func TestCreateValidPersonal(t *testing.T) {
 		t.Error("Criou-se personal quando não deveria")
 	}
 
-}*/
+}

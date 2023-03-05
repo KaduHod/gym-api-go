@@ -3,7 +3,6 @@ package validate
 import (
 	"api/app/helpers/requests"
 	"api/app/models"
-	"fmt"
 	"net/mail"
 	"strings"
 
@@ -18,7 +17,6 @@ func CreateUserMiddleware[T models.UserType](c *gin.Context) {
 	hasErrorKeys, errorsArr := checkCreateKeys(errorsArr, userParams)
 	hasErrorValues, errorsArr := checkCreateValues(errorsArr, userParams)
 
-	fmt.Println("aquiiiiiiiiiiii", userParams)
 	if hasErrorKeys || hasErrorValues {
 		c.JSON(400, gin.H{
 			"errors": errorsArr,

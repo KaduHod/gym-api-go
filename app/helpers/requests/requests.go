@@ -78,6 +78,23 @@ func JsonPostRequest(url string, body *strings.Reader) (*http.Response, string) 
 	return res, GetBodyFromRequest(res.Body)
 }
 
+func JsonPutRequest(url string, body *strings.Reader) (*http.Response, string) {
+	client, err := http.NewRequest(http.MethodPut, url, body)
+
+	if err != nil {
+		panic(err)
+	}
+	client.Header.Set("Content-Type", "application/json")
+
+	res, err := http.DefaultClient.Do(client)
+
+	if err != nil {
+		panic(err)
+	}
+
+	return res, GetBodyFromRequest(res.Body)
+}
+
 func GetRequest(url string) *http.Response {
 	client, err := http.NewRequest(http.MethodGet, url, nil)
 	if err != nil {

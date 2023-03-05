@@ -15,10 +15,6 @@ type Aluno struct {
 	UpdatedAt time.Time `json:"updatedAt" gorm:"column:updatedAt;autoUpdateTime"`
 }
 
-func (u Aluno) TableName() string {
-	return "users"
-}
-
 func (u Aluno) GetId() int {
 	return u.Id
 }
@@ -34,15 +30,23 @@ func (u Aluno) GetNickname() string {
 func (u Aluno) GetEmail() string {
 	return u.Email
 }
+
 func (u Aluno) GetPassword() string {
 	return u.Password
 }
+
 func (u Aluno) GetCellphone() string {
 	return u.Cellphone
 }
+
 func (u Aluno) GetCreatedAt() time.Time {
 	return u.CreatedAt
 }
+
 func (u Aluno) GetUpdatedAt() time.Time {
 	return u.UpdatedAt
+}
+
+func (u Aluno) TableName() string {
+	return "users"
 }

@@ -33,7 +33,7 @@ func Update(c *gin.Context) {
 		PersonalRepository: &personalRepository,
 		Personal:           &personal,
 	}
-	//
+
 	erro := updateService.Main()
 
 	if erro != nil && erro.Error() == "Personal not found!" {
@@ -43,7 +43,7 @@ func Update(c *gin.Context) {
 		return
 	}
 
-	c.JSON(201, gin.H{
+	c.JSON(200, gin.H{
 		"message":  "updated",
 		"personal": personal,
 	})

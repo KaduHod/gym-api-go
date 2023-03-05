@@ -16,6 +16,7 @@ func UpdateUserMiddleware[T models.UserType](c *gin.Context) {
 
 	hasErrorKeys, errorsArr := checkUpdateKeys(errorsArr, userParams)
 	hasErrorValues, errorsArr := checkUpdateValues(errorsArr, userParams)
+
 	if hasErrorKeys || hasErrorValues {
 		c.JSON(400, gin.H{
 			"errors": errorsArr,

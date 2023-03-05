@@ -20,7 +20,7 @@ func TestCreateValidAluno(t *testing.T) {
 		"email": "TesteGolangService@mail.com",
 	})
 
-	if aluno != nil {
+	if aluno.Id != 0 {
 		alunoRepository.DeleteAluno(aluno)
 	}
 
