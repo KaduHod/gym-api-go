@@ -3,6 +3,7 @@ package service
 import (
 	"api/app/models"
 	"api/app/repository"
+	"errors"
 )
 
 type GetExerciseById struct {
@@ -12,7 +13,7 @@ type GetExerciseById struct {
 	MusclesRole        bool
 }
 
-func (s *GetExerciseById) Main() *models.Exercise {
+func (s *GetExerciseById) Main() (*models.Exercise, error) {
 	var exercise *models.Exercise
 
 	if s.MusclesRole {
@@ -23,7 +24,11 @@ func (s *GetExerciseById) Main() *models.Exercise {
 		exercise = s.getExercise()
 	}
 
-	return exercise
+	if exercise.Id == 0 {
+		return exercise, errors.New("Exercise not find")
+	}
+
+	return exercise, nil
 }
 
 func (s *GetExerciseById) getExercise() *models.Exercise {

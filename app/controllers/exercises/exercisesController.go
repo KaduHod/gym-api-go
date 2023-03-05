@@ -54,9 +54,18 @@ func GetExercise(c *gin.Context) {
 		MusclesRole:        muscleRoleBool,
 	}
 
-	c.JSON(200, gin.H{
-		"exercise": service.Main(),
-	})
+	exercise, err := service.Main()
+
+	if err != nil {
+		if err.Error() == "Exercise not find" {
+			c.String(404, err.Error())
+			return
+		}
+		c.AbortWithError(500, err)
+		return
+	}
+
+	c.JSON(200, exercise)
 }
 
 func ListByMuscle(c *gin.Context) {
@@ -80,18 +89,18 @@ func ListByMuscle(c *gin.Context) {
 
 func Create(c *gin.Context) {
 	c.JSON(201, gin.H{
-		"message": "Creating user...",
+		"message": "Creating exercise...",
 	})
 }
 
 func Update(c *gin.Context) {
 	c.JSON(200, gin.H{
-		"message": "Updating user...",
+		"message": "Updating exercise...",
 	})
 }
 
 func Delete(c *gin.Context) {
 	c.JSON(200, gin.H{
-		"message": "Deleting user...",
+		"message": "Deleting exercise...",
 	})
 }

@@ -1,6 +1,9 @@
 package models
 
-import "time"
+import (
+	"encoding/json"
+	"time"
+)
 
 type Exercise struct {
 	Id                    int                     `json:"id,omitempty"        gorm:"primaryKey;autoIncrement;"`
@@ -20,10 +23,10 @@ type ExerciseMusclePortion struct {
 	ExerciseId      int           `json:"exercise_id,omitempty"`
 	Exercise        Exercise      `json:"exercise,omitempty"`
 	MusclePortionId int           `json:"-,omitempty" gorm:"column:muscle_id"`
-	MusclePortion   MusclePortion `json:"muscle_portion,omitempty,muscle"`
-	Role            string        `json:"role,omitempty,role"`
-	CreatedAt       time.Time     `json:"created_at,omitempty" gorm:"column:createdAt;autoCreateTime"`
-	UpdatedAt       time.Time     `json:"updated_at,omitempty" gorm:"column:updatedAt;autoUpdateTime"`
+	MusclePortion   MusclePortion `json:"muscle_portion,omitempty"`
+	Role            string        `json:"role,omitempty"`
+	CreatedAt       time.Time     `json:"createdAt,omitempty" gorm:"column:createdAt;autoCreateTime"`
+	UpdatedAt       time.Time     `json:"updateAt,omitempty" gorm:"column:updatedAt;autoUpdateTime"`
 }
 
 func (Exercise) TableName() string {
@@ -63,4 +66,20 @@ func (e Exercise) GetCreatedAt() time.Time {
 }
 func (e Exercise) GetUpdatedAt() time.Time {
 	return e.UpdatedAt
+}
+
+func JsonToExercises(stringJson string) []*Exercise {
+	var exercises []*Exercise
+	if err := json.Unmarshal([]byte(stringJson), &exercises); err != nil {
+		panic(err)
+	}
+	return exercises
+}
+
+func JsonToExercise(stringJson string) *Exercise {
+	var exercise Exercise
+	if err := json.Unmarshal([]byte(stringJson), &exercise); err != nil {
+		panic(err)
+	}
+	return &exercise
 }

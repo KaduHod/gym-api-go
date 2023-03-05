@@ -2,6 +2,7 @@ package repository
 
 import (
 	apiErrors "api/app/helpers/errors"
+	"api/app/helpers/integers"
 	"api/app/models"
 	"net/url"
 	"strings"
@@ -19,26 +20,25 @@ func NewExercicioRepository(Db *gorm.DB) ExercicioRepository {
 
 func (r *ExercicioRepository) FindById(id int) *models.Exercise {
 	var exercise models.Exercise
-	exercise.Id = id
-	query := r.Db.Model(exercise)
-	query.Find(&exercise)
+	r.Db.Where("id = ?", integers.ToString(id)).Find(&exercise)
 	return &exercise
 }
 
 func (r *ExercicioRepository) FindByIdWithMuscles(id int, muscle bool, muscleRole bool) *models.Exercise {
 	var exercise models.Exercise
-	exercise.Id = id
+
+	idString := integers.ToString(id)
+
 	query := r.Db.Model(exercise)
 	if muscleRole {
 		query.Preload("ExerciseMusclePortion", func(db *gorm.DB) *gorm.DB {
 			return db.Preload("MusclePortion")
 		})
 	}
-
 	if muscle {
 		query.Preload("MusclePortions")
 	}
-	query.Find(&exercise)
+	query.Where("id = ?", idString).First(&exercise)
 	return &exercise
 }
 
@@ -72,12 +72,4 @@ func (r *ExercicioRepository) FindAll(params url.Values) *[]models.Exercise {
 	result := query.Find(&exercicios)
 	apiErrors.CheckPanic(result.Error)
 	return &exercicios
-}
-
-func (r *ExercicioRepository) FindExercisesByMusclePortion(musclePortionId int) {
-
-}
-
-func (r *ExercicioRepository) FindoExercisesByMuscleGroup(muscleGroupId int) {
-
 }
